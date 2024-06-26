@@ -1,0 +1,1064 @@
+mderfan@Mds-MacBook-Pro camel % for i in {1..10}; do mvn -pl core/camel-core test -Dtest=org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest#testChangedReadLockMinAge; done
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Detecting the operating system and CPU architecture
+[INFO] ------------------------------------------------------------------------
+[INFO] os.detected.name: osx
+[INFO] os.detected.arch: aarch_64
+[INFO] os.detected.bitness: 64
+[INFO] os.detected.version: 13.5
+[INFO] os.detected.version.major: 13
+[INFO] os.detected.version.minor: 5
+[INFO] os.detected.classifier: osx-aarch_64
+[INFO] 
+[INFO] --------------------< org.apache.camel:camel-core >---------------------
+[INFO] Building Camel :: Core 4.6.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- build-helper:3.5.0:add-source (default) @ camel-core ---
+[INFO] Source directory: /Users/mderfan/camel/core/camel-core/src/generated/java added.
+[INFO] 
+[INFO] --- build-helper:3.5.0:add-resource (default) @ camel-core ---
+[INFO] 
+[INFO] --- license:4.3:format (license-format) @ camel-core ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- formatter:2.23.0:format (format) @ camel-core ---
+[INFO] Processed 2760 files in 3s625ms (Formatted: 0, Skipped: 0, Unchanged: 2760, Failed: 0, Readonly: 0)
+[INFO] 
+[INFO] --- impsort:1.9.0:sort (sort-imports) @ camel-core ---
+[INFO] Processed 2760 files in 00:00.260 (Already Sorted: 2760, Needed Sorting: 0)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ camel-core ---
+[INFO] skip non existing resourceDirectory /Users/mderfan/camel/core/camel-core/src/main/resources
+[INFO] Copying 2 resources from src/generated/resources to target/classes
+[INFO] 
+[INFO] --- flatten:1.6.0:flatten (default-cli) @ camel-core ---
+[INFO] Generating flattened POM of project org.apache.camel:camel-core:jar:4.6.0-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ camel-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (recompile) @ camel-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ camel-core ---
+[INFO] Copying 169 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ camel-core ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 2760 source files with javac [debug deprecation release 17] to target/test-classes
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/builder/RouteTemplateStreamCacheTest.java:[40,29] noStreamCaching() in org.apache.camel.model.RouteDefinition has been 
+deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/bean/BeanConcurrentTest.java:[76,71] noAutoStartup() in org.apache.camel.model.RouteDefinition has been 
+deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/bean/BeanExpressionConcurrentTest.java:[76,71] noAutoStartup() in org.apache.camel.model.RouteDefinition has 
+been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/bean/BeanParameterBindingStreamCachingTest.java:[42,37] streamCaching() in 
+org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/controlbus/ControlBusLanguageSimpleStartRouteTest.java:[70,48] noAutoStartup() in 
+org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/controlbus/ControlBusStartRouteAsyncTest.java:[54,48] noAutoStartup() in 
+org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/controlbus/ControlBusStartRouteTest.java:[121,48] noAutoStartup() in org.apache.camel.model.RouteDefinition 
+has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/dataset/DataSetPreloadTest.java:[61,42] noAutoStartup() in org.apache.camel.model.RouteDefinition has been 
+deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/dataset/DataSetSedaTest.java:[55,42] noAutoStartup() in org.apache.camel.model.RouteDefinition has been 
+deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/direct/DirectProducerBlockingTest.java:[39,17] getConsumer() in 
+org.apache.camel.component.direct.DirectEndpoint has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/direct/DirectProducerBlockingTest.java:[57,17] getConsumer() in 
+org.apache.camel.component.direct.DirectEndpoint has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileConcurrentWriteAppendSameFileTest.java:[111,73] noAutoStartup() in 
+org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileConsumeDoneFileIssueTest.java:[129,99] noAutoStartup() in org.apache.camel.model.RouteDefinition has 
+been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileConsumeDoneFileIssueTest.java:[133,25] noAutoStartup() in org.apache.camel.model.RouteDefinition has 
+been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileConsumeMaxMessagesPerPollTest.java:[54,57] noAutoStartup() in org.apache.camel.model.RouteDefinition 
+has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileConsumeMoveRelativeNameTest.java:[54,57] noAutoStartup() in org.apache.camel.model.RouteDefinition 
+has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileConsumeNotEagerMaxMessagesPerPollTest.java:[61,40] noAutoStartup() in 
+org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileConsumerAbsoluteRootPathDefaultMoveTest.java:[53,81] noAutoStartup() in 
+org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileConsumerBatchTest.java:[34,58] noAutoStartup() in org.apache.camel.model.RouteDefinition has been 
+deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileConsumerCustomSchedulerTest.java:[65,40] noAutoStartup() in org.apache.camel.model.RouteDefinition 
+has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileConsumerDirectoryMustExistBridgeErrorHandlerTest.java:[45,25] noAutoStartup() in 
+org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileConsumerFileNameFilterTest.java:[47,94] noAutoStartup() in org.apache.camel.model.RouteDefinition has 
+been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileConsumerIdempotentKeyChangedIssue2Test.java:[62,31] noAutoStartup() in 
+org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileConsumerIdempotentKeyChangedIssueTest.java:[59,31] noAutoStartup() in 
+org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileConsumerPollStrategyPolledMessagesTest.java:[54,94] noAutoStartup() in 
+org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileConsumerRelativeFileNameTest.java:[57,25] noAutoStartup() in org.apache.camel.model.RouteDefinition 
+has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileConsumerSpringSchedulerTest.java:[38,66] noAutoStartup() in org.apache.camel.model.RouteDefinition 
+has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileConsumerThreadsInProgressIssueTest.java:[45,25] noAutoStartup() in 
+org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileMarkerFileDeleteOldLockFilesTest.java:[49,73] noAutoStartup() in 
+org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileMarkerFileRecursiveDeleteOldLockFilesTest.java:[54,25] noAutoStartup() in 
+org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileMarkerFileRecursiveDoNotDeleteOldLockFilesTest.java:[53,40] noAutoStartup() in 
+org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileMarkerFileRecursiveFilterDeleteOldLockFilesIncludeTest.java:[64,40] noAutoStartup() in 
+org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileMarkerFileRecursiveFilterDeleteOldLockFilesTest.java:[73,40] noAutoStartup() in 
+org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileMoveWithOutMessageTest.java:[72,21] setOut(org.apache.camel.Message) in org.apache.camel.Exchange has 
+been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileProducerFileExistAppendTest.java:[69,68] noAutoStartup() in org.apache.camel.model.RouteDefinition 
+has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileProducerFileExistOverrideTest.java:[46,68] noAutoStartup() in org.apache.camel.model.RouteDefinition 
+has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileProducerFileExistTryRenameTest.java:[50,68] noAutoStartup() in org.apache.camel.model.RouteDefinition 
+has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileRecursiveNoopTest.java:[62,111] noAutoStartup() in org.apache.camel.model.RouteDefinition has been 
+deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileRenameReadLockMustUseMarkerFileTest.java:[57,89] noAutoStartup() in 
+org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FileSplitInSplitTest.java:[80,73] noAutoStartup() in org.apache.camel.model.RouteDefinition has been 
+deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/FromFilePollThirdTimeOkTest.java:[55,70] noAutoStartup() in org.apache.camel.model.RouteDefinition has 
+been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/GenericFileConverterTest.java:[171,25] noStreamCaching() in org.apache.camel.model.RouteDefinition has 
+been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/stress/FileAsyncStressManualTest.java:[67,71] noAutoStartup() in org.apache.camel.model.RouteDefinition 
+has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/stress/FileAsyncStressReadLockLockFileTestManualManualTest.java:[38,89] noAutoStartup() in 
+org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/stress/FileAsyncStressReadLockNoneManualManualTest.java:[38,85] noAutoStartup() in 
+org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/file/stress/FileAsyncStressReadLockRenameManualManualTest.java:[38,87] noAutoStartup() in 
+org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/log/LogInputStreamTest.java:[105,33] noStreamCaching() in org.apache.camel.model.RouteDefinition has been 
+deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/log/LogInputStreamTest.java:[107,33] noStreamCaching() in org.apache.camel.model.RouteDefinition has been 
+deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/log/LogInputStreamTest.java:[109,33] streamCaching() in org.apache.camel.model.RouteDefinition has been 
+deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/log/LogInputStreamTest.java:[111,33] streamCaching() in org.apache.camel.model.RouteDefinition has been 
+deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/log/LogInputStreamTest.java:[113,33] streamCaching() in org.apache.camel.model.RouteDefinition has been 
+deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/log/LogInputStreamTest.java:[115,33] streamCaching() in org.apache.camel.model.RouteDefinition has been 
+deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/mock/MockStreamCachingTest.java:[58,37] streamCaching() in org.apache.camel.model.RouteDefinition has been 
+deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/seda/SameSedaQueueSizeAndNoSizeTest.java:[72,57] noAutoStartup() in org.apache.camel.model.RouteDefinition has 
+been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/seda/SameSedaQueueSizeAndNoSizeTest.java:[74,48] noAutoStartup() in org.apache.camel.model.RouteDefinition has 
+been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/seda/SedaConcurrentConsumersNPEIssueTest.java:[74,72] noAutoStartup() in 
+org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/seda/SedaConcurrentConsumersNPEIssueTest.java:[78,52] noAutoStartup() in 
+org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/seda/SedaDefaultDiscardWhenFullTest.java:[61,48] noAutoStartup() in org.apache.camel.model.RouteDefinition has 
+been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/seda/SedaDiscardWhenFullTest.java:[56,55] noAutoStartup() in org.apache.camel.model.RouteDefinition has been 
+deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/seda/SedaPurgeWhenStoppingTest.java:[57,75] noAutoStartup() in org.apache.camel.model.RouteDefinition has been 
+deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/seda/SedaWaitForTaskAsPropertyTest.java:[62,23] getOut() in org.apache.camel.Exchange has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/seda/SedaWaitForTaskIfReplyExpectedTest.java:[54,23] getOut() in org.apache.camel.Exchange has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/seda/SedaWaitForTaskNewerTest.java:[54,23] getOut() in org.apache.camel.Exchange has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/timer/TimerNameTest.java:[46,26] noAutoStartup() in org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/timer/TimerNegativeDelayTest.java:[41,67] noAutoStartup() in org.apache.camel.model.RouteDefinition has been 
+deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/component/timer/TimerRepeatCountTest.java:[50,91] noAutoStartup() in org.apache.camel.model.RouteDefinition has been 
+deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/converter/ConverterTest.java:[61,56] org.apache.camel.util.ReflectionInjector in org.apache.camel.util has been 
+deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/converter/JaxpTest.java:[44,56] org.apache.camel.util.ReflectionInjector in org.apache.camel.util has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/converter/StringSourceTest.java:[38,56] org.apache.camel.util.ReflectionInjector in org.apache.camel.util has been 
+deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/impl/DefaultExchangeHolderTest.java:[57,43] getOut() in org.apache.camel.Exchange has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/impl/DefaultExchangeHolderTest.java:[69,43] getOut() in org.apache.camel.Exchange has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/impl/DefaultExchangeHolderTest.java:[187,17] getOut() in org.apache.camel.Exchange has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/impl/DefaultExchangeTest.java:[357,17] setOut(org.apache.camel.Message) in org.apache.camel.Exchange has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/impl/DefaultExchangeTest.java:[359,32] <T>getOut(java.lang.Class<T>) in org.apache.camel.Exchange has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/impl/GracefulShutdownNoAutoStartOrderClashTest.java:[39,66] noAutoStartup() in org.apache.camel.model.RouteDefinition 
+has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/impl/ShutdownGracefulNoAutoStartedRoutesTest.java:[52,50] noAutoStartup() in org.apache.camel.model.RouteDefinition has 
+been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/impl/SimpleShutdownGracefulNoAtuoStartedTest.java:[52,48] noAutoStartup() in org.apache.camel.model.RouteDefinition has 
+been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/impl/engine/DefaultSupervisingRouteControllerTest.java:[134,44] noAutoStartup() in 
+org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/issues/OnExceptionBeforeErrorHandlerIssueTest.java:[78,52] noAutoStartup() in org.apache.camel.model.RouteDefinition has 
+been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/issues/SplitStopOnExceptionIssueTest.java:[44,24] hasOut() in org.apache.camel.Exchange has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/processor/BatchConsumerPooledExchangeTest.java:[97,79] noAutoStartup() in org.apache.camel.model.RouteDefinition has 
+been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/processor/CustomScheduledRoutePolicyTest.java:[68,33] noAutoStartup() in org.apache.camel.model.RouteDefinition has been 
+deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/processor/DelayerPerRouteTest.java:[44,31] noDelayer() in org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/processor/FailOverLoadBalanceAutoStartupFalseTest.java:[42,52] noAutoStartup() in org.apache.camel.model.RouteDefinition 
+has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/processor/FlipRoutePolicyTest.java:[54,89] noAutoStartup() in org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/processor/MulticastRedeliverTest.java:[105,45] hasOut() in org.apache.camel.Exchange has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/processor/MulticastRedeliverTest.java:[118,45] hasOut() in org.apache.camel.Exchange has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/processor/OnCompletionAsyncTest.java:[98,31] useOriginalBody() in org.apache.camel.model.OnCompletionDefinition has been 
+deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/processor/OnCompletionAsyncTest.java:[124,31] useOriginalBody() in org.apache.camel.model.OnCompletionDefinition has 
+been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/processor/OnCompletionUseOriginalBodyTest.java:[50,31] useOriginalBody() in 
+org.apache.camel.model.OnCompletionDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/processor/PooledExchangeTest.java:[87,65] noAutoStartup() in org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/processor/ProcessorMutateExchangeRedeliverTest.java:[82,45] hasOut() in org.apache.camel.Exchange has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/processor/ProcessorMutateExchangeRedeliverTest.java:[98,45] hasOut() in org.apache.camel.Exchange has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/processor/RecipientListRedeliverTest.java:[101,45] hasOut() in org.apache.camel.Exchange has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/processor/RecipientListRedeliverTest.java:[114,45] hasOut() in org.apache.camel.Exchange has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/processor/RouteNoAutoStartupTest.java:[62,33] noAutoStartup() in org.apache.camel.model.RouteDefinition has been 
+deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/processor/RouteStartupOrderSuspendResumeNoAutoStartupTest.java:[100,48] noAutoStartup() in 
+org.apache.camel.model.RouteDefinition has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/processor/RoutingSlipRedeliverTest.java:[101,45] hasOut() in org.apache.camel.Exchange has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/processor/RoutingSlipRedeliverTest.java:[114,45] hasOut() in org.apache.camel.Exchange has been deprecated
+[WARNING] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/processor/ShutdownCompleteAllTasksTest.java:[84,61] noAutoStartup() in org.apache.camel.model.RouteDefinition has been 
+deprecated
+[INFO] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/processor/SimpleSingleOutputMockTest.java: Some input files additionally use or override a deprecated API.
+[INFO] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/builder/RouteTemplateDuplicateIdIssueTest.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/mderfan/camel/core/camel-core/src/test/java/org/apache/camel/builder/RouteTemplateDuplicateIdIssueTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ camel-core ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest
+[Ljava.lang.String;@4bcf994e
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 24.31 s <<< FAILURE! -- in org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest
+[ERROR] org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest.testChangedReadLockMinAge -- Time elapsed: 24.29 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: There should be 20 lines in the file ==> expected: <20> but was: <3>
+        at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+        at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+        at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+        at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+        at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+        at org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest.testChangedReadLockMinAge(FileChangedReadLockMinAgeTest.java:52)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+        at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194)
+        at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+        at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+        at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+        at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+        at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   FileChangedReadLockMinAgeTest.testChangedReadLockMinAge:52 There should be 20 lines in the file ==> expected: <20> but was: <3>
+[INFO] 
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  42.750 s
+[INFO] Finished at: 2024-06-26T02:31:22+06:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test (default-test) on project camel-core: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/mderfan/camel/core/camel-core/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Detecting the operating system and CPU architecture
+[INFO] ------------------------------------------------------------------------
+[INFO] os.detected.name: osx
+[INFO] os.detected.arch: aarch_64
+[INFO] os.detected.bitness: 64
+[INFO] os.detected.version: 13.5
+[INFO] os.detected.version.major: 13
+[INFO] os.detected.version.minor: 5
+[INFO] os.detected.classifier: osx-aarch_64
+[INFO] 
+[INFO] --------------------< org.apache.camel:camel-core >---------------------
+[INFO] Building Camel :: Core 4.6.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- build-helper:3.5.0:add-source (default) @ camel-core ---
+[INFO] Source directory: /Users/mderfan/camel/core/camel-core/src/generated/java added.
+[INFO] 
+[INFO] --- build-helper:3.5.0:add-resource (default) @ camel-core ---
+[INFO] 
+[INFO] --- license:4.3:format (license-format) @ camel-core ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- formatter:2.23.0:format (format) @ camel-core ---
+[INFO] Processed 2760 files in 3s220ms (Formatted: 0, Skipped: 0, Unchanged: 2760, Failed: 0, Readonly: 0)
+[INFO] 
+[INFO] --- impsort:1.9.0:sort (sort-imports) @ camel-core ---
+[INFO] Processed 2760 files in 00:00.175 (Already Sorted: 2760, Needed Sorting: 0)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ camel-core ---
+[INFO] skip non existing resourceDirectory /Users/mderfan/camel/core/camel-core/src/main/resources
+[INFO] Copying 2 resources from src/generated/resources to target/classes
+[INFO] 
+[INFO] --- flatten:1.6.0:flatten (default-cli) @ camel-core ---
+[INFO] Generating flattened POM of project org.apache.camel:camel-core:jar:4.6.0-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ camel-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (recompile) @ camel-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ camel-core ---
+[INFO] Copying 169 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ camel-core ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ camel-core ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest
+[Ljava.lang.String;@bdf96aa
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 24.31 s <<< FAILURE! -- in org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest
+[ERROR] org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest.testChangedReadLockMinAge -- Time elapsed: 24.30 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: There should be 20 lines in the file ==> expected: <20> but was: <14>
+        at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+        at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+        at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+        at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+        at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+        at org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest.testChangedReadLockMinAge(FileChangedReadLockMinAgeTest.java:52)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+        at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194)
+        at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+        at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+        at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+        at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+        at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   FileChangedReadLockMinAgeTest.testChangedReadLockMinAge:52 There should be 20 lines in the file ==> expected: <20> but was: <14>
+[INFO] 
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  31.194 s
+[INFO] Finished at: 2024-06-26T02:31:55+06:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test (default-test) on project camel-core: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/mderfan/camel/core/camel-core/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Detecting the operating system and CPU architecture
+[INFO] ------------------------------------------------------------------------
+[INFO] os.detected.name: osx
+[INFO] os.detected.arch: aarch_64
+[INFO] os.detected.bitness: 64
+[INFO] os.detected.version: 13.5
+[INFO] os.detected.version.major: 13
+[INFO] os.detected.version.minor: 5
+[INFO] os.detected.classifier: osx-aarch_64
+[INFO] 
+[INFO] --------------------< org.apache.camel:camel-core >---------------------
+[INFO] Building Camel :: Core 4.6.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- build-helper:3.5.0:add-source (default) @ camel-core ---
+[INFO] Source directory: /Users/mderfan/camel/core/camel-core/src/generated/java added.
+[INFO] 
+[INFO] --- build-helper:3.5.0:add-resource (default) @ camel-core ---
+[INFO] 
+[INFO] --- license:4.3:format (license-format) @ camel-core ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- formatter:2.23.0:format (format) @ camel-core ---
+[INFO] Processed 2760 files in 504ms (Formatted: 0, Skipped: 2760, Unchanged: 0, Failed: 0, Readonly: 0)
+[INFO] 
+[INFO] --- impsort:1.9.0:sort (sort-imports) @ camel-core ---
+[INFO] Processed 2760 files in 00:00.187 (Already Sorted: 2760, Needed Sorting: 0)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ camel-core ---
+[INFO] skip non existing resourceDirectory /Users/mderfan/camel/core/camel-core/src/main/resources
+[INFO] Copying 2 resources from src/generated/resources to target/classes
+[INFO] 
+[INFO] --- flatten:1.6.0:flatten (default-cli) @ camel-core ---
+[INFO] Generating flattened POM of project org.apache.camel:camel-core:jar:4.6.0-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ camel-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (recompile) @ camel-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ camel-core ---
+[INFO] Copying 169 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ camel-core ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ camel-core ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest
+[Ljava.lang.String;@3d555b5d
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.30 s -- in org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  28.358 s
+[INFO] Finished at: 2024-06-26T02:32:24+06:00
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Detecting the operating system and CPU architecture
+[INFO] ------------------------------------------------------------------------
+[INFO] os.detected.name: osx
+[INFO] os.detected.arch: aarch_64
+[INFO] os.detected.bitness: 64
+[INFO] os.detected.version: 13.5
+[INFO] os.detected.version.major: 13
+[INFO] os.detected.version.minor: 5
+[INFO] os.detected.classifier: osx-aarch_64
+[INFO] 
+[INFO] --------------------< org.apache.camel:camel-core >---------------------
+[INFO] Building Camel :: Core 4.6.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- build-helper:3.5.0:add-source (default) @ camel-core ---
+[INFO] Source directory: /Users/mderfan/camel/core/camel-core/src/generated/java added.
+[INFO] 
+[INFO] --- build-helper:3.5.0:add-resource (default) @ camel-core ---
+[INFO] 
+[INFO] --- license:4.3:format (license-format) @ camel-core ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- formatter:2.23.0:format (format) @ camel-core ---
+[INFO] Processed 2760 files in 3s226ms (Formatted: 0, Skipped: 0, Unchanged: 2760, Failed: 0, Readonly: 0)
+[INFO] 
+[INFO] --- impsort:1.9.0:sort (sort-imports) @ camel-core ---
+[INFO] Processed 2760 files in 00:00.160 (Already Sorted: 2760, Needed Sorting: 0)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ camel-core ---
+[INFO] skip non existing resourceDirectory /Users/mderfan/camel/core/camel-core/src/main/resources
+[INFO] Copying 2 resources from src/generated/resources to target/classes
+[INFO] 
+[INFO] --- flatten:1.6.0:flatten (default-cli) @ camel-core ---
+[INFO] Generating flattened POM of project org.apache.camel:camel-core:jar:4.6.0-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ camel-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (recompile) @ camel-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ camel-core ---
+[INFO] Copying 169 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ camel-core ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ camel-core ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest
+[Ljava.lang.String;@1ba69075
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 24.29 s <<< FAILURE! -- in org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest
+[ERROR] org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest.testChangedReadLockMinAge -- Time elapsed: 24.28 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: There should be 20 lines in the file ==> expected: <20> but was: <3>
+        at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+        at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+        at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+        at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+        at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+        at org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest.testChangedReadLockMinAge(FileChangedReadLockMinAgeTest.java:52)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+        at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194)
+        at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+        at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+        at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+        at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+        at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   FileChangedReadLockMinAgeTest.testChangedReadLockMinAge:52 There should be 20 lines in the file ==> expected: <20> but was: <3>
+[INFO] 
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  31.633 s
+[INFO] Finished at: 2024-06-26T02:32:57+06:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test (default-test) on project camel-core: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/mderfan/camel/core/camel-core/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Detecting the operating system and CPU architecture
+[INFO] ------------------------------------------------------------------------
+[INFO] os.detected.name: osx
+[INFO] os.detected.arch: aarch_64
+[INFO] os.detected.bitness: 64
+[INFO] os.detected.version: 13.5
+[INFO] os.detected.version.major: 13
+[INFO] os.detected.version.minor: 5
+[INFO] os.detected.classifier: osx-aarch_64
+[INFO] 
+[INFO] --------------------< org.apache.camel:camel-core >---------------------
+[INFO] Building Camel :: Core 4.6.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- build-helper:3.5.0:add-source (default) @ camel-core ---
+[INFO] Source directory: /Users/mderfan/camel/core/camel-core/src/generated/java added.
+[INFO] 
+[INFO] --- build-helper:3.5.0:add-resource (default) @ camel-core ---
+[INFO] 
+[INFO] --- license:4.3:format (license-format) @ camel-core ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- formatter:2.23.0:format (format) @ camel-core ---
+[INFO] Processed 2760 files in 3s303ms (Formatted: 0, Skipped: 0, Unchanged: 2760, Failed: 0, Readonly: 0)
+[INFO] 
+[INFO] --- impsort:1.9.0:sort (sort-imports) @ camel-core ---
+[INFO] Processed 2760 files in 00:00.166 (Already Sorted: 2760, Needed Sorting: 0)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ camel-core ---
+[INFO] skip non existing resourceDirectory /Users/mderfan/camel/core/camel-core/src/main/resources
+[INFO] Copying 2 resources from src/generated/resources to target/classes
+[INFO] 
+[INFO] --- flatten:1.6.0:flatten (default-cli) @ camel-core ---
+[INFO] Generating flattened POM of project org.apache.camel:camel-core:jar:4.6.0-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ camel-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (recompile) @ camel-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ camel-core ---
+[INFO] Copying 169 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ camel-core ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ camel-core ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest
+[Ljava.lang.String;@7ec1aa9
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 24.29 s <<< FAILURE! -- in org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest
+[ERROR] org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest.testChangedReadLockMinAge -- Time elapsed: 24.27 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: There should be 20 lines in the file ==> expected: <20> but was: <3>
+        at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+        at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+        at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+        at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+        at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+        at org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest.testChangedReadLockMinAge(FileChangedReadLockMinAgeTest.java:52)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+        at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194)
+        at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+        at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+        at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+        at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+        at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   FileChangedReadLockMinAgeTest.testChangedReadLockMinAge:52 There should be 20 lines in the file ==> expected: <20> but was: <3>
+[INFO] 
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  31.296 s
+[INFO] Finished at: 2024-06-26T02:33:30+06:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test (default-test) on project camel-core: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/mderfan/camel/core/camel-core/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Detecting the operating system and CPU architecture
+[INFO] ------------------------------------------------------------------------
+[INFO] os.detected.name: osx
+[INFO] os.detected.arch: aarch_64
+[INFO] os.detected.bitness: 64
+[INFO] os.detected.version: 13.5
+[INFO] os.detected.version.major: 13
+[INFO] os.detected.version.minor: 5
+[INFO] os.detected.classifier: osx-aarch_64
+[INFO] 
+[INFO] --------------------< org.apache.camel:camel-core >---------------------
+[INFO] Building Camel :: Core 4.6.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- build-helper:3.5.0:add-source (default) @ camel-core ---
+[INFO] Source directory: /Users/mderfan/camel/core/camel-core/src/generated/java added.
+[INFO] 
+[INFO] --- build-helper:3.5.0:add-resource (default) @ camel-core ---
+[INFO] 
+[INFO] --- license:4.3:format (license-format) @ camel-core ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- formatter:2.23.0:format (format) @ camel-core ---
+[INFO] Processed 2760 files in 3s221ms (Formatted: 0, Skipped: 0, Unchanged: 2760, Failed: 0, Readonly: 0)
+[INFO] 
+[INFO] --- impsort:1.9.0:sort (sort-imports) @ camel-core ---
+[INFO] Processed 2760 files in 00:00.180 (Already Sorted: 2760, Needed Sorting: 0)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ camel-core ---
+[INFO] skip non existing resourceDirectory /Users/mderfan/camel/core/camel-core/src/main/resources
+[INFO] Copying 2 resources from src/generated/resources to target/classes
+[INFO] 
+[INFO] --- flatten:1.6.0:flatten (default-cli) @ camel-core ---
+[INFO] Generating flattened POM of project org.apache.camel:camel-core:jar:4.6.0-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ camel-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (recompile) @ camel-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ camel-core ---
+[INFO] Copying 169 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ camel-core ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ camel-core ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest
+[Ljava.lang.String;@59d19ec6
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.30 s -- in org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  31.167 s
+[INFO] Finished at: 2024-06-26T02:34:02+06:00
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Detecting the operating system and CPU architecture
+[INFO] ------------------------------------------------------------------------
+[INFO] os.detected.name: osx
+[INFO] os.detected.arch: aarch_64
+[INFO] os.detected.bitness: 64
+[INFO] os.detected.version: 13.5
+[INFO] os.detected.version.major: 13
+[INFO] os.detected.version.minor: 5
+[INFO] os.detected.classifier: osx-aarch_64
+[INFO] 
+[INFO] --------------------< org.apache.camel:camel-core >---------------------
+[INFO] Building Camel :: Core 4.6.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- build-helper:3.5.0:add-source (default) @ camel-core ---
+[INFO] Source directory: /Users/mderfan/camel/core/camel-core/src/generated/java added.
+[INFO] 
+[INFO] --- build-helper:3.5.0:add-resource (default) @ camel-core ---
+[INFO] 
+[INFO] --- license:4.3:format (license-format) @ camel-core ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- formatter:2.23.0:format (format) @ camel-core ---
+[INFO] Processed 2760 files in 3s372ms (Formatted: 0, Skipped: 0, Unchanged: 2760, Failed: 0, Readonly: 0)
+[INFO] 
+[INFO] --- impsort:1.9.0:sort (sort-imports) @ camel-core ---
+[INFO] Processed 2760 files in 00:00.181 (Already Sorted: 2760, Needed Sorting: 0)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ camel-core ---
+[INFO] skip non existing resourceDirectory /Users/mderfan/camel/core/camel-core/src/main/resources
+[INFO] Copying 2 resources from src/generated/resources to target/classes
+[INFO] 
+[INFO] --- flatten:1.6.0:flatten (default-cli) @ camel-core ---
+[INFO] Generating flattened POM of project org.apache.camel:camel-core:jar:4.6.0-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ camel-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (recompile) @ camel-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ camel-core ---
+[INFO] Copying 169 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ camel-core ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ camel-core ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest
+[Ljava.lang.String;@3cf2b859
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.29 s -- in org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  32.031 s
+[INFO] Finished at: 2024-06-26T02:34:35+06:00
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Detecting the operating system and CPU architecture
+[INFO] ------------------------------------------------------------------------
+[INFO] os.detected.name: osx
+[INFO] os.detected.arch: aarch_64
+[INFO] os.detected.bitness: 64
+[INFO] os.detected.version: 13.5
+[INFO] os.detected.version.major: 13
+[INFO] os.detected.version.minor: 5
+[INFO] os.detected.classifier: osx-aarch_64
+[INFO] 
+[INFO] --------------------< org.apache.camel:camel-core >---------------------
+[INFO] Building Camel :: Core 4.6.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- build-helper:3.5.0:add-source (default) @ camel-core ---
+[INFO] Source directory: /Users/mderfan/camel/core/camel-core/src/generated/java added.
+[INFO] 
+[INFO] --- build-helper:3.5.0:add-resource (default) @ camel-core ---
+[INFO] 
+[INFO] --- license:4.3:format (license-format) @ camel-core ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- formatter:2.23.0:format (format) @ camel-core ---
+[INFO] Processed 2760 files in 3s471ms (Formatted: 0, Skipped: 0, Unchanged: 2760, Failed: 0, Readonly: 0)
+[INFO] 
+[INFO] --- impsort:1.9.0:sort (sort-imports) @ camel-core ---
+[INFO] Processed 2760 files in 00:00.197 (Already Sorted: 2760, Needed Sorting: 0)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ camel-core ---
+[INFO] skip non existing resourceDirectory /Users/mderfan/camel/core/camel-core/src/main/resources
+[INFO] Copying 2 resources from src/generated/resources to target/classes
+[INFO] 
+[INFO] --- flatten:1.6.0:flatten (default-cli) @ camel-core ---
+[INFO] Generating flattened POM of project org.apache.camel:camel-core:jar:4.6.0-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ camel-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (recompile) @ camel-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ camel-core ---
+[INFO] Copying 169 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ camel-core ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ camel-core ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest
+[Ljava.lang.String;@4e8d28d
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 24.29 s <<< FAILURE! -- in org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest
+[ERROR] org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest.testChangedReadLockMinAge -- Time elapsed: 24.28 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: There should be 20 lines in the file ==> expected: <20> but was: <10>
+        at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+        at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+        at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+        at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+        at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+        at org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest.testChangedReadLockMinAge(FileChangedReadLockMinAgeTest.java:52)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+        at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194)
+        at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+        at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+        at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+        at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+        at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   FileChangedReadLockMinAgeTest.testChangedReadLockMinAge:52 There should be 20 lines in the file ==> expected: <20> but was: <10>
+[INFO] 
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  31.512 s
+[INFO] Finished at: 2024-06-26T02:35:08+06:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test (default-test) on project camel-core: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/mderfan/camel/core/camel-core/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Detecting the operating system and CPU architecture
+[INFO] ------------------------------------------------------------------------
+[INFO] os.detected.name: osx
+[INFO] os.detected.arch: aarch_64
+[INFO] os.detected.bitness: 64
+[INFO] os.detected.version: 13.5
+[INFO] os.detected.version.major: 13
+[INFO] os.detected.version.minor: 5
+[INFO] os.detected.classifier: osx-aarch_64
+[INFO] 
+[INFO] --------------------< org.apache.camel:camel-core >---------------------
+[INFO] Building Camel :: Core 4.6.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- build-helper:3.5.0:add-source (default) @ camel-core ---
+[INFO] Source directory: /Users/mderfan/camel/core/camel-core/src/generated/java added.
+[INFO] 
+[INFO] --- build-helper:3.5.0:add-resource (default) @ camel-core ---
+[INFO] 
+[INFO] --- license:4.3:format (license-format) @ camel-core ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- formatter:2.23.0:format (format) @ camel-core ---
+[INFO] Processed 2760 files in 3s682ms (Formatted: 0, Skipped: 0, Unchanged: 2760, Failed: 0, Readonly: 0)
+[INFO] 
+[INFO] --- impsort:1.9.0:sort (sort-imports) @ camel-core ---
+[INFO] Processed 2760 files in 00:00.185 (Already Sorted: 2760, Needed Sorting: 0)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ camel-core ---
+[INFO] skip non existing resourceDirectory /Users/mderfan/camel/core/camel-core/src/main/resources
+[INFO] Copying 2 resources from src/generated/resources to target/classes
+[INFO] 
+[INFO] --- flatten:1.6.0:flatten (default-cli) @ camel-core ---
+[INFO] Generating flattened POM of project org.apache.camel:camel-core:jar:4.6.0-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ camel-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (recompile) @ camel-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ camel-core ---
+[INFO] Copying 169 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ camel-core ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ camel-core ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest
+[Ljava.lang.String;@49db0253
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.30 s -- in org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  32.004 s
+[INFO] Finished at: 2024-06-26T02:35:41+06:00
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Detecting the operating system and CPU architecture
+[INFO] ------------------------------------------------------------------------
+[INFO] os.detected.name: osx
+[INFO] os.detected.arch: aarch_64
+[INFO] os.detected.bitness: 64
+[INFO] os.detected.version: 13.5
+[INFO] os.detected.version.major: 13
+[INFO] os.detected.version.minor: 5
+[INFO] os.detected.classifier: osx-aarch_64
+[INFO] 
+[INFO] --------------------< org.apache.camel:camel-core >---------------------
+[INFO] Building Camel :: Core 4.6.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- build-helper:3.5.0:add-source (default) @ camel-core ---
+[INFO] Source directory: /Users/mderfan/camel/core/camel-core/src/generated/java added.
+[INFO] 
+[INFO] --- build-helper:3.5.0:add-resource (default) @ camel-core ---
+[INFO] 
+[INFO] --- license:4.3:format (license-format) @ camel-core ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- formatter:2.23.0:format (format) @ camel-core ---
+[INFO] Processed 2760 files in 3s732ms (Formatted: 0, Skipped: 0, Unchanged: 2760, Failed: 0, Readonly: 0)
+[INFO] 
+[INFO] --- impsort:1.9.0:sort (sort-imports) @ camel-core ---
+[INFO] Processed 2760 files in 00:00.240 (Already Sorted: 2760, Needed Sorting: 0)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ camel-core ---
+[INFO] skip non existing resourceDirectory /Users/mderfan/camel/core/camel-core/src/main/resources
+[INFO] Copying 2 resources from src/generated/resources to target/classes
+[INFO] 
+[INFO] --- flatten:1.6.0:flatten (default-cli) @ camel-core ---
+[INFO] Generating flattened POM of project org.apache.camel:camel-core:jar:4.6.0-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ camel-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (recompile) @ camel-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ camel-core ---
+[INFO] Copying 169 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ camel-core ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ camel-core ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest
+[Ljava.lang.String;@7a93146e
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 24.39 s <<< FAILURE! -- in org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest
+[ERROR] org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest.testChangedReadLockMinAge -- Time elapsed: 24.38 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: There should be 20 lines in the file ==> expected: <20> but was: <16>
+        at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+        at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+        at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+        at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+        at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+        at org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest.testChangedReadLockMinAge(FileChangedReadLockMinAgeTest.java:52)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+        at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194)
+        at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+        at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+        at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+        at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+        at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   FileChangedReadLockMinAgeTest.testChangedReadLockMinAge:52 There should be 20 lines in the file ==> expected: <20> but was: <16>
+[INFO] 
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  32.947 s
+[INFO] Finished at: 2024-06-26T02:36:16+06:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test (default-test) on project camel-core: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/mderfan/camel/core/camel-core/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
