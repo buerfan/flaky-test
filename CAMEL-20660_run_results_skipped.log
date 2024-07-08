@@ -1,0 +1,83 @@
+Script started on Tue Jul  9 01:21:38 2024
+Restored session: Sun Jul  7 20:22:08 +06 2024
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://Mds-MBP-2.netis.cc/Users/mderfan/camel[0m[27m[24m[Jmderfan@Mds-MBP-2 camel % [K[?2004h[7mmvn test -Dtest=org.apache.camel.component.azure.servicebus.integration.operations.ServiceBusSenderOperationsTest -pl components/camel-azure/camel-azure-servicebus[27m[163D[27mm[27mv[27mn[27m [27mt[27me[27ms[27mt[27m [27m-[27mD[27mt[27me[27ms[27mt[27m=[27mo[27mr[27mg[27m.[27ma[27mp[27ma[27mc[27mh[27me[27m.[27mc[27ma[27mm[27me[27ml[27m.[27mc[27mo[27mm[27mp[27mo[27mn[27me[27mn[27mt[27m.[27ma[27mz[27mu[27mr[27me[27m.[27ms[27me[27mr[27mv[27mi[27mc[27me[27mb[27mu[27ms[27m.[27mi[27mn[27mt[27me[27mg[27mr[27ma[27mt[27mi[27mo[27mn[27m.[27mo[27mp[27me[27mr[27ma[27mt[27mi[27mo[27mn[27ms[27m.[27mS[27me[27mr[27mv[27mi[27mc[27me[27mB[27mu[27ms[27mS[27me[27mn[27md[27me[27mr[27mO[27mp[27me[27mr[27ma[27mt[27mi[27mo[27mn[27ms[27mT[27me[27ms[27mt[27m [27m-[27mp[27ml[27m [27mc[27mo[27mm[27mp[27mo[27mn[27me[27mn[27mt[27ms[27m/[27mc[27ma[27mm[27me[27ml[27m-[27ma[27mz[27mu[27mr[27me[27m/[27mc[27ma[27mm[27me[27ml[27m-[27ma[27mz[27mu[27mr[27me[27m-[27ms[27me[27mr[27mv[27mi[27mc[27me[27mb[27mu[27ms[?2004l
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] ------------------------------------------------------------------------
+[[1;34mINFO[m] Detecting the operating system and CPU architecture
+[[1;34mINFO[m] ------------------------------------------------------------------------
+[[1;34mINFO[m] os.detected.name: osx
+[[1;34mINFO[m] os.detected.arch: aarch_64
+[[1;34mINFO[m] os.detected.bitness: 64
+[[1;34mINFO[m] os.detected.version: 13.5
+[[1;34mINFO[m] os.detected.version.major: 13
+[[1;34mINFO[m] os.detected.version.minor: 5
+[[1;34mINFO[m] os.detected.classifier: osx-aarch_64
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36morg.apache.camel:camel-azure-servicebus[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding Camel :: Azure :: ServiceBus 4.7.0-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper:3.6.0:add-source[m [1m(default)[m @ [36mcamel-azure-servicebus[0;1m ---[m
+[[1;34mINFO[m] Source directory: /Users/mderfan/camel/components/camel-azure/camel-azure-servicebus/src/generated/java added.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper:3.6.0:add-resource[m [1m(default)[m @ [36mcamel-azure-servicebus[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mlicense:4.3:format[m [1m(license-format)[m @ [36mcamel-azure-servicebus[0;1m ---[m
+[[1;34mINFO[m] Updating license headers...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mformatter:2.24.0:format[m [1m(format)[m @ [36mcamel-azure-servicebus[0;1m ---[m
+[[1;34mINFO[m] Processed 23 files in 250ms (Formatted: 0, Skipped: 23, Unchanged: 0, Failed: 0, Readonly: 0)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mimpsort:1.10.0:sort[m [1m(sort-imports)[m @ [36mcamel-azure-servicebus[0;1m ---[m
+[[1;34mINFO[m] Processed 23 files in 00:00.009 (Already Sorted: 23, Needed Sorting: 0)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mcamel-azure-servicebus[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /Users/mderfan/camel/components/camel-azure/camel-azure-servicebus/src/main/resources
+[[1;34mINFO[m] Copying 10 resources from src/generated/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten:1.6.0:flatten[m [1m(default-cli)[m @ [36mcamel-azure-servicebus[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project org.apache.camel:camel-azure-servicebus:jar:4.7.0-SNAPSHOT...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mcamel-azure-servicebus[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcamel-package:4.7.0-SNAPSHOT:generate[m [1m(generate)[m @ [36mcamel-azure-servicebus[0;1m ---[m
+[[1;34mINFO[m] Skipping generation, everything is up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:compile[m [1m(recompile)[m @ [36mcamel-azure-servicebus[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mcamel-azure-servicebus[0;1m ---[m
+[[1;34mINFO[m] Copying 1 resource from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mcamel-azure-servicebus[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msurefire:3.2.5:test[m [1m(default-test)[m @ [36mcamel-azure-servicebus[0;1m ---[m
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.camel.component.azure.servicebus.integration.operations.[1mServiceBusSenderOperationsTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m4[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m4[m, Time elapsed: 0.003 s -- in org.apache.camel.component.azure.servicebus.integration.operations.[1mServiceBusSenderOperationsTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;33mWARNING[m] [1;33mTests run: 4, Failures: 0, Errors: 0, Skipped: 4[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  3.753 s
+[[1;34mINFO[m] Finished at: 2024-07-09T01:21:46+06:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[0m[0m[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://Mds-MBP-2.netis.cc/Users/mderfan/camel[0m[27m[24m[Jmderfan@Mds-MBP-2 camel % [K[?2004heexit[?2004l
+
+Saving session...
+...saving history...truncating history files...
+...completed.
+Deleting expired sessions...       9 completed.
+
+Script done on Tue Jul  9 01:21:51 2024
