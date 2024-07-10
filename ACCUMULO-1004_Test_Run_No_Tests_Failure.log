@@ -1,0 +1,1032 @@
+Script started on Wed Jul 10 17:44:33 2024
+Restored session: Wed Jul 10 15:03:41 +06 2024
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://Mds-MBP-2.netis.cc/Users/mderfan/Desktop/Meeting%2003/ACCUMULO-1004/accumulo[0m[27m[24m[Jmderfan@Mds-MBP-2 accumulo % [K[?2004hexitmvn clean install -DskipTests -Drat.skip=true [?2004l
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] The project org.apache.accumulo:accumulo:pom:1.5.0-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Apache Accumulo                                                    [pom]
+[[1;34mINFO[m] Trace                                                              [jar]
+[[1;34mINFO[m] Start                                                              [jar]
+[[1;34mINFO[m] Fate                                                               [jar]
+[[1;34mINFO[m] Core                                                               [jar]
+[[1;34mINFO[m] Server                                                             [jar]
+[[1;34mINFO[m] Examples                                                           [pom]
+[[1;34mINFO[m] Simple Examples                                                    [jar]
+[[1;34mINFO[m] Testing                                                            [jar]
+[[1;34mINFO[m] Instamo Example                                                    [jar]
+[[1;34mINFO[m] Assemble                                                           [pom]
+[[1;34mINFO[m] Proxy                                                              [jar]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.apache.accumulo:accumulo[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Apache Accumulo 1.5.0-SNAPSHOT                           [1/12][m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mclean:2.5:clean[m [1m(default-clean)[m @ [36maccumulo[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/target
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib (includes = [*.jar], excludes = [])
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/test (includes = [**/*.so], excludes = [])
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo (includes = [**/*.pyc], excludes = [])
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber:1.1:create[m [1m(default)[m @ [36maccumulo[0;1m ---[m
+[[1;34mINFO[m] Checking for local modifications: skipped.
+[[1;34mINFO[m] Updating project files from SCM: skipped.
+[[1;34mINFO[m] Executing: /bin/sh -c cd "/Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo" && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo
+[[1;34mINFO[m] Storing buildNumber: null at timestamp: 1720611883647
+[[1;34mINFO[m] Executing: /bin/sh -c cd "/Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo" && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN_BRANCH
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.0.1:enforce[m [1m(enforce-mvn)[m @ [36maccumulo[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.3:process[m [1m(default)[m @ [36maccumulo[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mdependency:2.3:copy-dependencies[m [1m(copy-dependencies)[m @ [36maccumulo[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msite:3.2:attach-descriptor[m [1m(attach-descriptor)[m @ [36maccumulo[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msource:2.1.2:jar-no-fork[m [1m(attach-sources)[m @ [36maccumulo[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msource:2.1.2:test-jar-no-fork[m [1m(attach-sources)[m @ [36maccumulo[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32minstall:2.3.1:install[m [1m(default-install)[m @ [36maccumulo[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/pom.xml to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo/1.5.0-SNAPSHOT/accumulo-1.5.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/target/accumulo-1.5.0-SNAPSHOT-site.xml to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo/1.5.0-SNAPSHOT/accumulo-1.5.0-SNAPSHOT-site.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36morg.apache.accumulo:accumulo-trace[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding Trace 1.5.0-SNAPSHOT                                     [2/12][m
+[[1;34mINFO[m]   from trace/pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mclean:2.5:clean[m [1m(default-clean)[m @ [36maccumulo-trace[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/trace/target
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/trace (includes = [**/*.pyc], excludes = [])
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber:1.1:create[m [1m(default)[m @ [36maccumulo-trace[0;1m ---[m
+[[1;34mINFO[m] Checking for local modifications: skipped.
+[[1;34mINFO[m] Updating project files from SCM: skipped.
+[[1;34mINFO[m] Executing: /bin/sh -c cd "/Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/trace" && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/trace
+[[1;34mINFO[m] Storing buildNumber: null at timestamp: 1720611886384
+[[1;34mINFO[m] Executing: /bin/sh -c cd "/Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/trace" && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/trace
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN_BRANCH
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.0.1:enforce[m [1m(enforce-mvn)[m @ [36maccumulo-trace[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec:1.2.1:exec[m [1m(generate-thrift)[m @ [36maccumulo-trace[0;1m ---[m
+****************************************************
+*** thrift is not available
+***   expecting 'thrift -version' to return 0.9
+*** generated code will not be updated
+****************************************************
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.3:process[m [1m(default)[m @ [36maccumulo-trace[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.5:resources[m [1m(default-resources)[m @ [36maccumulo-trace[0;1m ---[m
+[debug] execute contextualize
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/trace/src/main/resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mdependency:2.3:copy-dependencies[m [1m(copy-dependencies)[m @ [36maccumulo-trace[0;1m ---[m
+[[1;34mINFO[m] Copying log4j-1.2.16.jar to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/log4j-1.2.16.jar
+[[1;34mINFO[m] Copying libthrift-0.9.0.jar to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/libthrift-0.9.0.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.3.2:compile[m [1m(default-compile)[m @ [36maccumulo-trace[0;1m ---[m
+[[1;34mINFO[m] Compiling 22 source files to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/trace/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.5:testResources[m [1m(default-testResources)[m @ [36maccumulo-trace[0;1m ---[m
+[debug] execute contextualize
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/trace/src/test/resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.3.2:testCompile[m [1m(default-testCompile)[m @ [36maccumulo-trace[0;1m ---[m
+[[1;34mINFO[m] Compiling 3 source files to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/trace/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msurefire:2.12:test[m [1m(default-test)[m @ [36maccumulo-trace[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjar:2.4:jar[m [1m(default-jar)[m @ [36maccumulo-trace[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-trace-1.5.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msite:3.2:attach-descriptor[m [1m(attach-descriptor)[m @ [36maccumulo-trace[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msource:2.1.2:jar-no-fork[m [1m(attach-sources)[m @ [36maccumulo-trace[0;1m ---[m
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-trace-1.5.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msource:2.1.2:test-jar-no-fork[m [1m(attach-sources)[m @ [36maccumulo-trace[0;1m ---[m
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-trace-1.5.0-SNAPSHOT-test-sources.jar
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32minstall:2.3.1:install[m [1m(default-install)[m @ [36maccumulo-trace[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-trace-1.5.0-SNAPSHOT.jar to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-trace/1.5.0-SNAPSHOT/accumulo-trace-1.5.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/trace/pom.xml to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-trace/1.5.0-SNAPSHOT/accumulo-trace-1.5.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-trace-1.5.0-SNAPSHOT-sources.jar to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-trace/1.5.0-SNAPSHOT/accumulo-trace-1.5.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-trace-1.5.0-SNAPSHOT-test-sources.jar to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-trace/1.5.0-SNAPSHOT/accumulo-trace-1.5.0-SNAPSHOT-test-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36morg.apache.accumulo:accumulo-start[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding Start 1.5.0-SNAPSHOT                                     [3/12][m
+[[1;34mINFO[m]   from start/pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.16.1-GA
+[[1;33mWARNING[m] Could not transfer metadata org.mortbay.jetty:jetty/maven-metadata.xml from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mclean:2.5:clean[m [1m(default-clean)[m @ [36maccumulo-start[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/start/target
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/start (includes = [**/*.pyc], excludes = [])
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber:1.1:create[m [1m(default)[m @ [36maccumulo-start[0;1m ---[m
+[[1;34mINFO[m] Checking for local modifications: skipped.
+[[1;34mINFO[m] Updating project files from SCM: skipped.
+[[1;34mINFO[m] Executing: /bin/sh -c cd "/Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/start" && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/start
+[[1;34mINFO[m] Storing buildNumber: null at timestamp: 1720611891539
+[[1;34mINFO[m] Executing: /bin/sh -c cd "/Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/start" && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/start
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN_BRANCH
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.0.1:enforce[m [1m(enforce-mvn)[m @ [36maccumulo-start[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.3:process[m [1m(default)[m @ [36maccumulo-start[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.5:resources[m [1m(default-resources)[m @ [36maccumulo-start[0;1m ---[m
+[debug] execute contextualize
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/start/src/main/resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mdependency:2.3:copy-dependencies[m [1m(copy-dependencies)[m @ [36maccumulo-start[0;1m ---[m
+[[1;34mINFO[m] Copying commons-io-1.4.jar to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/commons-io-1.4.jar
+[[1;34mINFO[m] Copying commons-vfs2-2.0.jar to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/commons-vfs2-2.0.jar
+[[1;34mINFO[m] Copying commons-logging-1.0.4.jar to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/commons-logging-1.0.4.jar
+[[1;34mINFO[m] log4j-1.2.16.jar already exists in destination.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.3.2:compile[m [1m(default-compile)[m @ [36maccumulo-start[0;1m ---[m
+[[1;34mINFO[m] Compiling 16 source files to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/start/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.5:testResources[m [1m(default-testResources)[m @ [36maccumulo-start[0;1m ---[m
+[debug] execute contextualize
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.3.2:testCompile[m [1m(default-testCompile)[m @ [36maccumulo-start[0;1m ---[m
+[[1;34mINFO[m] Compiling 7 source files to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/start/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msurefire:2.12:test[m [1m(default-test)[m @ [36maccumulo-start[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjar:2.4:jar[m [1m(default-jar)[m @ [36maccumulo-start[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-start-1.5.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msite:3.2:attach-descriptor[m [1m(attach-descriptor)[m @ [36maccumulo-start[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msource:2.1.2:jar-no-fork[m [1m(attach-sources)[m @ [36maccumulo-start[0;1m ---[m
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-start-1.5.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msource:2.1.2:test-jar-no-fork[m [1m(attach-sources)[m @ [36maccumulo-start[0;1m ---[m
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-start-1.5.0-SNAPSHOT-test-sources.jar
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32minstall:2.3.1:install[m [1m(default-install)[m @ [36maccumulo-start[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-start-1.5.0-SNAPSHOT.jar to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-start/1.5.0-SNAPSHOT/accumulo-start-1.5.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/start/pom.xml to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-start/1.5.0-SNAPSHOT/accumulo-start-1.5.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-start-1.5.0-SNAPSHOT-sources.jar to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-start/1.5.0-SNAPSHOT/accumulo-start-1.5.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-start-1.5.0-SNAPSHOT-test-sources.jar to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-start/1.5.0-SNAPSHOT/accumulo-start-1.5.0-SNAPSHOT-test-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36morg.apache.accumulo:accumulo-fate[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Fate 1.5.0-SNAPSHOT                                      [4/12][m
+[[1;34mINFO[m]   from fate/pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mclean:2.5:clean[m [1m(default-clean)[m @ [36maccumulo-fate[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/fate/target
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/fate (includes = [**/*.pyc], excludes = [])
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber:1.1:create[m [1m(default)[m @ [36maccumulo-fate[0;1m ---[m
+[[1;34mINFO[m] Checking for local modifications: skipped.
+[[1;34mINFO[m] Updating project files from SCM: skipped.
+[[1;34mINFO[m] Executing: /bin/sh -c cd "/Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/fate" && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/fate
+[[1;34mINFO[m] Storing buildNumber: null at timestamp: 1720611895021
+[[1;34mINFO[m] Executing: /bin/sh -c cd "/Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/fate" && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/fate
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN_BRANCH
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.0.1:enforce[m [1m(enforce-mvn)[m @ [36maccumulo-fate[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.3:process[m [1m(default)[m @ [36maccumulo-fate[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.5:resources[m [1m(default-resources)[m @ [36maccumulo-fate[0;1m ---[m
+[debug] execute contextualize
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/fate/src/main/resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mdependency:2.3:copy-dependencies[m [1m(copy-dependencies)[m @ [36maccumulo-fate[0;1m ---[m
+[[1;34mINFO[m] Copying commons-lang-2.4.jar to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/commons-lang-2.4.jar
+[[1;34mINFO[m] log4j-1.2.16.jar already exists in destination.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.3.2:compile[m [1m(default-compile)[m @ [36maccumulo-fate[0;1m ---[m
+[[1;34mINFO[m] Compiling 22 source files to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/fate/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.5:testResources[m [1m(default-testResources)[m @ [36maccumulo-fate[0;1m ---[m
+[debug] execute contextualize
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.3.2:testCompile[m [1m(default-testCompile)[m @ [36maccumulo-fate[0;1m ---[m
+[[1;34mINFO[m] Compiling 4 source files to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/fate/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msurefire:2.12:test[m [1m(default-test)[m @ [36maccumulo-fate[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjar:2.4:jar[m [1m(default-jar)[m @ [36maccumulo-fate[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-fate-1.5.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msite:3.2:attach-descriptor[m [1m(attach-descriptor)[m @ [36maccumulo-fate[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msource:2.1.2:jar-no-fork[m [1m(attach-sources)[m @ [36maccumulo-fate[0;1m ---[m
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-fate-1.5.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msource:2.1.2:test-jar-no-fork[m [1m(attach-sources)[m @ [36maccumulo-fate[0;1m ---[m
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-fate-1.5.0-SNAPSHOT-test-sources.jar
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32minstall:2.3.1:install[m [1m(default-install)[m @ [36maccumulo-fate[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-fate-1.5.0-SNAPSHOT.jar to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-fate/1.5.0-SNAPSHOT/accumulo-fate-1.5.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/fate/pom.xml to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-fate/1.5.0-SNAPSHOT/accumulo-fate-1.5.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-fate-1.5.0-SNAPSHOT-sources.jar to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-fate/1.5.0-SNAPSHOT/accumulo-fate-1.5.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-fate-1.5.0-SNAPSHOT-test-sources.jar to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-fate/1.5.0-SNAPSHOT/accumulo-fate-1.5.0-SNAPSHOT-test-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36morg.apache.accumulo:accumulo-core[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Core 1.5.0-SNAPSHOT                                      [5/12][m
+[[1;34mINFO[m]   from core/pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] org.mortbay.jetty:jetty/maven-metadata.xml failed to transfer from http://0.0.0.0/ during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of maven-default-http-blocker has elapsed or updates are forced. Original error: Could not transfer metadata org.mortbay.jetty:jetty/maven-metadata.xml from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mclean:2.5:clean[m [1m(default-clean)[m @ [36maccumulo-core[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/core/target
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/core (includes = [**/*.pyc], excludes = [])
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber:1.1:create[m [1m(default)[m @ [36maccumulo-core[0;1m ---[m
+[[1;34mINFO[m] Checking for local modifications: skipped.
+[[1;34mINFO[m] Updating project files from SCM: skipped.
+[[1;34mINFO[m] Executing: /bin/sh -c cd "/Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/core" && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/core
+[[1;34mINFO[m] Storing buildNumber: null at timestamp: 1720611898453
+[[1;34mINFO[m] Executing: /bin/sh -c cd "/Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/core" && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/core
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN_BRANCH
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.0.1:enforce[m [1m(enforce-mvn)[m @ [36maccumulo-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec:1.2.1:exec[m [1m(generate-thrift)[m @ [36maccumulo-core[0;1m ---[m
+****************************************************
+*** thrift is not available
+***   expecting 'thrift -version' to return 0.9
+*** generated code will not be updated
+****************************************************
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.3:process[m [1m(default)[m @ [36maccumulo-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.5:resources[m [1m(default-resources)[m @ [36maccumulo-core[0;1m ---[m
+[debug] execute contextualize
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mdependency:2.3:copy-dependencies[m [1m(copy-dependencies)[m @ [36maccumulo-core[0;1m ---[m
+[[1;34mINFO[m] Copying jcommander-1.30.jar to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/jcommander-1.30.jar
+[[1;34mINFO[m] Copying commons-collections-3.2.jar to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/commons-collections-3.2.jar
+[[1;34mINFO[m] Copying jline-0.9.94.jar to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/jline-0.9.94.jar
+[[1;34mINFO[m] log4j-1.2.16.jar already exists in destination.
+[[1;34mINFO[m] libthrift-0.9.0.jar already exists in destination.
+[[1;34mINFO[m] commons-logging-1.0.4.jar already exists in destination.
+[[1;34mINFO[m] commons-lang-2.4.jar already exists in destination.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.3.2:compile[m [1m(default-compile)[m @ [36maccumulo-core[0;1m ---[m
+[[1;34mINFO[m] Compiling 486 source files to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/core/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.5:testResources[m [1m(default-testResources)[m @ [36maccumulo-core[0;1m ---[m
+[debug] execute contextualize
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.3.2:testCompile[m [1m(default-testCompile)[m @ [36maccumulo-core[0;1m ---[m
+[[1;34mINFO[m] Compiling 72 source files to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/core/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msurefire:2.12:test[m [1m(default-test)[m @ [36maccumulo-core[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjar:2.4:jar[m [1m(default-jar)[m @ [36maccumulo-core[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-core-1.5.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msite:3.2:attach-descriptor[m [1m(attach-descriptor)[m @ [36maccumulo-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msource:2.1.2:jar-no-fork[m [1m(attach-sources)[m @ [36maccumulo-core[0;1m ---[m
+[[1;34mINFO[m] org already added, skipping
+[[1;34mINFO[m] org/apache already added, skipping
+[[1;34mINFO[m] org/apache/accumulo already added, skipping
+[[1;34mINFO[m] org/apache/accumulo/core already added, skipping
+[[1;34mINFO[m] org/apache/accumulo/core/conf already added, skipping
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-core-1.5.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] org already added, skipping
+[[1;34mINFO[m] org/apache already added, skipping
+[[1;34mINFO[m] org/apache/accumulo already added, skipping
+[[1;34mINFO[m] org/apache/accumulo/core already added, skipping
+[[1;34mINFO[m] org/apache/accumulo/core/conf already added, skipping
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msource:2.1.2:test-jar-no-fork[m [1m(attach-sources)[m @ [36maccumulo-core[0;1m ---[m
+[[1;34mINFO[m] org already added, skipping
+[[1;34mINFO[m] org/apache already added, skipping
+[[1;34mINFO[m] org/apache/accumulo already added, skipping
+[[1;34mINFO[m] org/apache/accumulo/core already added, skipping
+[[1;34mINFO[m] org/apache/accumulo/core/file already added, skipping
+[[1;34mINFO[m] org/apache/accumulo/core/file/rfile already added, skipping
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-core-1.5.0-SNAPSHOT-test-sources.jar
+[[1;34mINFO[m] org already added, skipping
+[[1;34mINFO[m] org/apache already added, skipping
+[[1;34mINFO[m] org/apache/accumulo already added, skipping
+[[1;34mINFO[m] org/apache/accumulo/core already added, skipping
+[[1;34mINFO[m] org/apache/accumulo/core/file already added, skipping
+[[1;34mINFO[m] org/apache/accumulo/core/file/rfile already added, skipping
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32minstall:2.3.1:install[m [1m(default-install)[m @ [36maccumulo-core[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-core-1.5.0-SNAPSHOT.jar to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-core/1.5.0-SNAPSHOT/accumulo-core-1.5.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/core/pom.xml to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-core/1.5.0-SNAPSHOT/accumulo-core-1.5.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-core-1.5.0-SNAPSHOT-sources.jar to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-core/1.5.0-SNAPSHOT/accumulo-core-1.5.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-core-1.5.0-SNAPSHOT-test-sources.jar to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-core/1.5.0-SNAPSHOT/accumulo-core-1.5.0-SNAPSHOT-test-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36morg.apache.accumulo:accumulo-server[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding Server 1.5.0-SNAPSHOT                                    [6/12][m
+[[1;34mINFO[m]   from server/pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] org.mortbay.jetty:jetty/maven-metadata.xml failed to transfer from http://0.0.0.0/ during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of maven-default-http-blocker has elapsed or updates are forced. Original error: Could not transfer metadata org.mortbay.jetty:jetty/maven-metadata.xml from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mclean:2.5:clean[m [1m(default-clean)[m @ [36maccumulo-server[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/server/target
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/server (includes = [**/*.pyc], excludes = [])
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber:1.1:create[m [1m(default)[m @ [36maccumulo-server[0;1m ---[m
+[[1;34mINFO[m] Checking for local modifications: skipped.
+[[1;34mINFO[m] Updating project files from SCM: skipped.
+[[1;34mINFO[m] Executing: /bin/sh -c cd "/Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/server" && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/server
+[[1;34mINFO[m] Storing buildNumber: null at timestamp: 1720611915763
+[[1;34mINFO[m] Executing: /bin/sh -c cd "/Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/server" && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/server
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN_BRANCH
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.0.1:enforce[m [1m(enforce-mvn)[m @ [36maccumulo-server[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.3:process[m [1m(default)[m @ [36maccumulo-server[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.5:resources[m [1m(default-resources)[m @ [36maccumulo-server[0;1m ---[m
+[debug] execute contextualize
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 38 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mdependency:2.3:copy-dependencies[m [1m(copy-dependencies)[m @ [36maccumulo-server[0;1m ---[m
+[[1;34mINFO[m] Copying gson-2.2.2.jar to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/gson-2.2.2.jar
+[[1;34mINFO[m] Copying commons-configuration-1.5.jar to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/commons-configuration-1.5.jar
+[[1;34mINFO[m] log4j-1.2.16.jar already exists in destination.
+[[1;34mINFO[m] commons-collections-3.2.jar already exists in destination.
+[[1;34mINFO[m] jline-0.9.94.jar already exists in destination.
+[[1;34mINFO[m] commons-io-1.4.jar already exists in destination.
+[[1;34mINFO[m] libthrift-0.9.0.jar already exists in destination.
+[[1;34mINFO[m] commons-lang-2.4.jar already exists in destination.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.3.2:compile[m [1m(default-compile)[m @ [36maccumulo-server[0;1m ---[m
+[[1;34mINFO[m] Compiling 239 source files to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/server/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.5:testResources[m [1m(default-testResources)[m @ [36maccumulo-server[0;1m ---[m
+[debug] execute contextualize
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/server/src/test/resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.3.2:testCompile[m [1m(default-testCompile)[m @ [36maccumulo-server[0;1m ---[m
+[[1;34mINFO[m] Compiling 21 source files to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/server/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msurefire:2.12:test[m [1m(default-test)[m @ [36maccumulo-server[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjar:2.4:jar[m [1m(default-jar)[m @ [36maccumulo-server[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-server-1.5.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msite:3.2:attach-descriptor[m [1m(attach-descriptor)[m @ [36maccumulo-server[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msource:2.1.2:jar-no-fork[m [1m(attach-sources)[m @ [36maccumulo-server[0;1m ---[m
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-server-1.5.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msource:2.1.2:test-jar-no-fork[m [1m(attach-sources)[m @ [36maccumulo-server[0;1m ---[m
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-server-1.5.0-SNAPSHOT-test-sources.jar
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32minstall:2.3.1:install[m [1m(default-install)[m @ [36maccumulo-server[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-server-1.5.0-SNAPSHOT.jar to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-server/1.5.0-SNAPSHOT/accumulo-server-1.5.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/server/pom.xml to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-server/1.5.0-SNAPSHOT/accumulo-server-1.5.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-server-1.5.0-SNAPSHOT-sources.jar to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-server/1.5.0-SNAPSHOT/accumulo-server-1.5.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-server-1.5.0-SNAPSHOT-test-sources.jar to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-server/1.5.0-SNAPSHOT/accumulo-server-1.5.0-SNAPSHOT-test-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36morg.apache.accumulo:accumulo-examples[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding Examples 1.5.0-SNAPSHOT                                  [7/12][m
+[[1;34mINFO[m]   from examples/pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mclean:2.5:clean[m [1m(default-clean)[m @ [36maccumulo-examples[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples/target
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples/lib (includes = [*.jar], excludes = [])
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples (includes = [**/*.pyc], excludes = [])
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber:1.1:create[m [1m(default)[m @ [36maccumulo-examples[0;1m ---[m
+[[1;34mINFO[m] Checking for local modifications: skipped.
+[[1;34mINFO[m] Updating project files from SCM: skipped.
+[[1;34mINFO[m] Executing: /bin/sh -c cd "/Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples" && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples
+[[1;34mINFO[m] Storing buildNumber: null at timestamp: 1720611927113
+[[1;34mINFO[m] Executing: /bin/sh -c cd "/Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples" && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN_BRANCH
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.0.1:enforce[m [1m(enforce-mvn)[m @ [36maccumulo-examples[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.3:process[m [1m(default)[m @ [36maccumulo-examples[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mdependency:2.3:copy-dependencies[m [1m(copy-dependencies)[m @ [36maccumulo-examples[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msite:3.2:attach-descriptor[m [1m(attach-descriptor)[m @ [36maccumulo-examples[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msource:2.1.2:jar-no-fork[m [1m(attach-sources)[m @ [36maccumulo-examples[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msource:2.1.2:test-jar-no-fork[m [1m(attach-sources)[m @ [36maccumulo-examples[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32minstall:2.3.1:install[m [1m(default-install)[m @ [36maccumulo-examples[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples/pom.xml to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-examples/1.5.0-SNAPSHOT/accumulo-examples-1.5.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------< [0;36morg.apache.accumulo:accumulo-examples-simple[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding Simple Examples 1.5.0-SNAPSHOT                           [8/12][m
+[[1;34mINFO[m]   from examples/simple/pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] org.mortbay.jetty:jetty/maven-metadata.xml failed to transfer from http://0.0.0.0/ during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of maven-default-http-blocker has elapsed or updates are forced. Original error: Could not transfer metadata org.mortbay.jetty:jetty/maven-metadata.xml from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[[1;33mWARNING[m] org.mortbay.jetty:jetty/maven-metadata.xml failed to transfer from http://0.0.0.0/ during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of maven-default-http-blocker has elapsed or updates are forced. Original error: Could not transfer metadata org.mortbay.jetty:jetty/maven-metadata.xml from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[90mDownloading from [0mjava.net[90m: https://maven.java.net/content/groups/public/[0morg/mortbay/jetty/jetty/maven-metadata.xml
+[[1;33mWARNING[m] Could not transfer metadata org.mortbay.jetty:jetty/maven-metadata.xml from/to java.net (https://maven.java.net/content/groups/public): PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mclean:2.5:clean[m [1m(default-clean)[m @ [36maccumulo-examples-simple[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples/simple/target
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples/simple (includes = [**/*.pyc], excludes = [])
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber:1.1:create[m [1m(default)[m @ [36maccumulo-examples-simple[0;1m ---[m
+[[1;34mINFO[m] Checking for local modifications: skipped.
+[[1;34mINFO[m] Updating project files from SCM: skipped.
+[[1;34mINFO[m] Executing: /bin/sh -c cd "/Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples/simple" && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples/simple
+[[1;34mINFO[m] Storing buildNumber: null at timestamp: 1720611928710
+[[1;34mINFO[m] Executing: /bin/sh -c cd "/Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples/simple" && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples/simple
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN_BRANCH
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.0.1:enforce[m [1m(enforce-mvn)[m @ [36maccumulo-examples-simple[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.3:process[m [1m(default)[m @ [36maccumulo-examples-simple[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.5:resources[m [1m(default-resources)[m @ [36maccumulo-examples-simple[0;1m ---[m
+[debug] execute contextualize
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples/simple/src/main/resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mdependency:2.3:copy-dependencies[m [1m(copy-dependencies)[m @ [36maccumulo-examples-simple[0;1m ---[m
+[[1;34mINFO[m] Copying log4j-1.2.16.jar to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples/lib/log4j-1.2.16.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.3.2:compile[m [1m(default-compile)[m @ [36maccumulo-examples-simple[0;1m ---[m
+[[1;34mINFO[m] Compiling 39 source files to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples/simple/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.5:testResources[m [1m(default-testResources)[m @ [36maccumulo-examples-simple[0;1m ---[m
+[debug] execute contextualize
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples/simple/src/test/resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.3.2:testCompile[m [1m(default-testCompile)[m @ [36maccumulo-examples-simple[0;1m ---[m
+[[1;34mINFO[m] Compiling 5 source files to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples/simple/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msurefire:2.12:test[m [1m(default-test)[m @ [36maccumulo-examples-simple[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjar:2.4:jar[m [1m(default-jar)[m @ [36maccumulo-examples-simple[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-examples-simple-1.5.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msite:3.2:attach-descriptor[m [1m(attach-descriptor)[m @ [36maccumulo-examples-simple[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msource:2.1.2:jar-no-fork[m [1m(attach-sources)[m @ [36maccumulo-examples-simple[0;1m ---[m
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-examples-simple-1.5.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msource:2.1.2:test-jar-no-fork[m [1m(attach-sources)[m @ [36maccumulo-examples-simple[0;1m ---[m
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-examples-simple-1.5.0-SNAPSHOT-test-sources.jar
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32minstall:2.3.1:install[m [1m(default-install)[m @ [36maccumulo-examples-simple[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-examples-simple-1.5.0-SNAPSHOT.jar to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-examples-simple/1.5.0-SNAPSHOT/accumulo-examples-simple-1.5.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples/simple/pom.xml to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-examples-simple/1.5.0-SNAPSHOT/accumulo-examples-simple-1.5.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-examples-simple-1.5.0-SNAPSHOT-sources.jar to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-examples-simple/1.5.0-SNAPSHOT/accumulo-examples-simple-1.5.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-examples-simple-1.5.0-SNAPSHOT-test-sources.jar to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-examples-simple/1.5.0-SNAPSHOT/accumulo-examples-simple-1.5.0-SNAPSHOT-test-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36morg.apache.accumulo:accumulo-test[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Testing 1.5.0-SNAPSHOT                                   [9/12][m
+[[1;34mINFO[m]   from test/pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] org.mortbay.jetty:jetty/maven-metadata.xml failed to transfer from http://0.0.0.0/ during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of maven-default-http-blocker has elapsed or updates are forced. Original error: Could not transfer metadata org.mortbay.jetty:jetty/maven-metadata.xml from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mclean:2.5:clean[m [1m(default-clean)[m @ [36maccumulo-test[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/test/target
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/test (includes = [**/*.pyc], excludes = [])
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber:1.1:create[m [1m(default)[m @ [36maccumulo-test[0;1m ---[m
+[[1;34mINFO[m] Checking for local modifications: skipped.
+[[1;34mINFO[m] Updating project files from SCM: skipped.
+[[1;34mINFO[m] Executing: /bin/sh -c cd "/Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/test" && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/test
+[[1;34mINFO[m] Storing buildNumber: null at timestamp: 1720611934636
+[[1;34mINFO[m] Executing: /bin/sh -c cd "/Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/test" && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/test
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN_BRANCH
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.0.1:enforce[m [1m(enforce-mvn)[m @ [36maccumulo-test[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.3:process[m [1m(default)[m @ [36maccumulo-test[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.5:resources[m [1m(default-resources)[m @ [36maccumulo-test[0;1m ---[m
+[debug] execute contextualize
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/test/src/main/resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mdependency:2.3:copy-dependencies[m [1m(copy-dependencies)[m @ [36maccumulo-test[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.3.2:compile[m [1m(default-compile)[m @ [36maccumulo-test[0;1m ---[m
+[[1;34mINFO[m] Compiling 178 source files to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/test/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.5:testResources[m [1m(default-testResources)[m @ [36maccumulo-test[0;1m ---[m
+[debug] execute contextualize
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.3.2:testCompile[m [1m(default-testCompile)[m @ [36maccumulo-test[0;1m ---[m
+[[1;34mINFO[m] Compiling 3 source files to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/test/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msurefire:2.12:test[m [1m(default-test)[m @ [36maccumulo-test[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjar:2.4:jar[m [1m(default-jar)[m @ [36maccumulo-test[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-test-1.5.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msite:3.2:attach-descriptor[m [1m(attach-descriptor)[m @ [36maccumulo-test[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msource:2.1.2:jar-no-fork[m [1m(attach-sources)[m @ [36maccumulo-test[0;1m ---[m
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-test-1.5.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msource:2.1.2:test-jar-no-fork[m [1m(attach-sources)[m @ [36maccumulo-test[0;1m ---[m
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-test-1.5.0-SNAPSHOT-test-sources.jar
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32minstall:2.3.1:install[m [1m(default-install)[m @ [36maccumulo-test[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-test-1.5.0-SNAPSHOT.jar to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-test/1.5.0-SNAPSHOT/accumulo-test-1.5.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/test/pom.xml to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-test/1.5.0-SNAPSHOT/accumulo-test-1.5.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-test-1.5.0-SNAPSHOT-sources.jar to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-test/1.5.0-SNAPSHOT/accumulo-test-1.5.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-test-1.5.0-SNAPSHOT-test-sources.jar to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-test/1.5.0-SNAPSHOT/accumulo-test-1.5.0-SNAPSHOT-test-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36morg.apache.accumulo:accumulo-examples-instamo[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding Instamo Example 1.5.0-SNAPSHOT                          [10/12][m
+[[1;34mINFO[m]   from examples/instamo/pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36maccumulo-examples-instamo[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples/instamo/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36maccumulo-examples-instamo[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] Copying 1 resource from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.0.2:compile[m [1m(default-compile)[m @ [36maccumulo-examples-instamo[0;1m ---[m
+[[1;34mINFO[m] Compiling 2 source files to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples/instamo/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36maccumulo-examples-instamo[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples/instamo/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.0.2:testCompile[m [1m(default-testCompile)[m @ [36maccumulo-examples-instamo[0;1m ---[m
+[[1;34mINFO[m] Compiling 1 source file to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples/instamo/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msurefire:3.2.5:test[m [1m(default-test)[m @ [36maccumulo-examples-instamo[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjar:3.4.1:jar[m [1m(default-jar)[m @ [36maccumulo-examples-instamo[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples/instamo/target/accumulo-examples-instamo-1.5.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32minstall:3.1.2:install[m [1m(default-install)[m @ [36maccumulo-examples-instamo[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples/instamo/pom.xml to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-examples-instamo/1.5.0-SNAPSHOT/accumulo-examples-instamo-1.5.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/examples/instamo/target/accumulo-examples-instamo-1.5.0-SNAPSHOT.jar to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-examples-instamo/1.5.0-SNAPSHOT/accumulo-examples-instamo-1.5.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36morg.apache.accumulo:accumulo-assemble[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding Assemble 1.5.0-SNAPSHOT                                 [11/12][m
+[[1;34mINFO[m]   from assemble/pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mclean:2.5:clean[m [1m(default-clean)[m @ [36maccumulo-assemble[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/assemble/target
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/assemble (includes = [**/*.pyc], excludes = [])
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber:1.1:create[m [1m(default)[m @ [36maccumulo-assemble[0;1m ---[m
+[[1;34mINFO[m] Checking for local modifications: skipped.
+[[1;34mINFO[m] Updating project files from SCM: skipped.
+[[1;34mINFO[m] Executing: /bin/sh -c cd "/Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/assemble" && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/assemble
+[[1;34mINFO[m] Storing buildNumber: null at timestamp: 1720611944055
+[[1;34mINFO[m] Executing: /bin/sh -c cd "/Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/assemble" && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/assemble
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN_BRANCH
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.0.1:enforce[m [1m(enforce-mvn)[m @ [36maccumulo-assemble[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.3:process[m [1m(default)[m @ [36maccumulo-assemble[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mdependency:2.3:copy-dependencies[m [1m(copy-dependencies)[m @ [36maccumulo-assemble[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msite:3.2:attach-descriptor[m [1m(attach-descriptor)[m @ [36maccumulo-assemble[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msource:2.1.2:jar-no-fork[m [1m(attach-sources)[m @ [36maccumulo-assemble[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msource:2.1.2:test-jar-no-fork[m [1m(attach-sources)[m @ [36maccumulo-assemble[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec:1.2.1:exec[m [1m(config webpage)[m @ [36maccumulo-assemble[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32minstall:2.3.1:install[m [1m(default-install)[m @ [36maccumulo-assemble[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/assemble/pom.xml to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-assemble/1.5.0-SNAPSHOT/accumulo-assemble-1.5.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36morg.apache.accumulo:accumulo-proxy[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding Proxy 1.5.0-SNAPSHOT                                    [12/12][m
+[[1;34mINFO[m]   from proxy/pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] org.mortbay.jetty:jetty/maven-metadata.xml failed to transfer from http://0.0.0.0/ during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of maven-default-http-blocker has elapsed or updates are forced. Original error: Could not transfer metadata org.mortbay.jetty:jetty/maven-metadata.xml from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mclean:2.5:clean[m [1m(default-clean)[m @ [36maccumulo-proxy[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/proxy/target
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/proxy (includes = [**/*.pyc], excludes = [])
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber:1.1:create[m [1m(default)[m @ [36maccumulo-proxy[0;1m ---[m
+[[1;34mINFO[m] Checking for local modifications: skipped.
+[[1;34mINFO[m] Updating project files from SCM: skipped.
+[[1;34mINFO[m] Executing: /bin/sh -c cd "/Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/proxy" && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/proxy
+[[1;34mINFO[m] Storing buildNumber: null at timestamp: 1720611944777
+[[1;34mINFO[m] Executing: /bin/sh -c cd "/Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/proxy" && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/proxy
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN_BRANCH
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.0.1:enforce[m [1m(enforce-mvn)[m @ [36maccumulo-proxy[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec:1.2.1:exec[m [1m(generate-thrift)[m @ [36maccumulo-proxy[0;1m ---[m
+****************************************************
+*** thrift is not available
+***   expecting 'thrift -version' to return 0.9
+*** generated code will not be updated
+****************************************************
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.3:process[m [1m(default)[m @ [36maccumulo-proxy[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.5:resources[m [1m(default-resources)[m @ [36maccumulo-proxy[0;1m ---[m
+[debug] execute contextualize
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/proxy/src/main/resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mdependency:2.3:copy-dependencies[m [1m(copy-dependencies)[m @ [36maccumulo-proxy[0;1m ---[m
+[[1;34mINFO[m] Copying guava-13.0.1.jar to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/guava-13.0.1.jar
+[[1;34mINFO[m] jcommander-1.30.jar already exists in destination.
+[[1;34mINFO[m] libthrift-0.9.0.jar already exists in destination.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.3.2:compile[m [1m(default-compile)[m @ [36maccumulo-proxy[0;1m ---[m
+[[1;34mINFO[m] Compiling 37 source files to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/proxy/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.5:testResources[m [1m(default-testResources)[m @ [36maccumulo-proxy[0;1m ---[m
+[debug] execute contextualize
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/proxy/src/test/resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.3.2:testCompile[m [1m(default-testCompile)[m @ [36maccumulo-proxy[0;1m ---[m
+[[1;34mINFO[m] Compiling 5 source files to /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/proxy/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msurefire:2.12:test[m [1m(default-test)[m @ [36maccumulo-proxy[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjar:2.4:jar[m [1m(default-jar)[m @ [36maccumulo-proxy[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-proxy-1.5.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msite:3.2:attach-descriptor[m [1m(attach-descriptor)[m @ [36maccumulo-proxy[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msource:2.1.2:jar-no-fork[m [1m(attach-sources)[m @ [36maccumulo-proxy[0;1m ---[m
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-proxy-1.5.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msource:2.1.2:test-jar-no-fork[m [1m(attach-sources)[m @ [36maccumulo-proxy[0;1m ---[m
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-proxy-1.5.0-SNAPSHOT-test-sources.jar
+[[1;34mINFO[m] META-INF already added, skipping
+[[1;34mINFO[m] META-INF/LICENSE already added, skipping
+[[1;34mINFO[m] META-INF/DEPENDENCIES already added, skipping
+[[1;34mINFO[m] META-INF/NOTICE already added, skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32minstall:2.3.1:install[m [1m(default-install)[m @ [36maccumulo-proxy[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-proxy-1.5.0-SNAPSHOT.jar to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-proxy/1.5.0-SNAPSHOT/accumulo-proxy-1.5.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/proxy/pom.xml to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-proxy/1.5.0-SNAPSHOT/accumulo-proxy-1.5.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-proxy-1.5.0-SNAPSHOT-sources.jar to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-proxy/1.5.0-SNAPSHOT/accumulo-proxy-1.5.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/lib/accumulo-proxy-1.5.0-SNAPSHOT-test-sources.jar to /Users/mderfan/.m2/repository/org/apache/accumulo/accumulo-proxy/1.5.0-SNAPSHOT/accumulo-proxy-1.5.0-SNAPSHOT-test-sources.jar
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for Apache Accumulo 1.5.0-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Apache Accumulo .................................... [1;32mSUCCESS[m [  3.927 s]
+[[1;34mINFO[m] Trace .............................................. [1;32mSUCCESS[m [  4.925 s]
+[[1;34mINFO[m] Start .............................................. [1;32mSUCCESS[m [  3.765 s]
+[[1;34mINFO[m] Fate ............................................... [1;32mSUCCESS[m [  3.235 s]
+[[1;34mINFO[m] Core ............................................... [1;32mSUCCESS[m [ 17.241 s]
+[[1;34mINFO[m] Server ............................................. [1;32mSUCCESS[m [ 11.607 s]
+[[1;34mINFO[m] Examples ........................................... [1;32mSUCCESS[m [  0.151 s]
+[[1;34mINFO[m] Simple Examples .................................... [1;32mSUCCESS[m [  7.304 s]
+[[1;34mINFO[m] Testing ............................................ [1;32mSUCCESS[m [  6.893 s]
+[[1;34mINFO[m] Instamo Example .................................... [1;32mSUCCESS[m [  2.626 s]
+[[1;34mINFO[m] Assemble ........................................... [1;32mSUCCESS[m [  0.612 s]
+[[1;34mINFO[m] Proxy .............................................. [1;32mSUCCESS[m [  9.977 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  01:12 min
+[[1;34mINFO[m] Finished at: 2024-07-10T17:45:54+06:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[0m[0m[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://Mds-MBP-2.netis.cc/Users/mderfan/Desktop/Meeting%2003/ACCUMULO-1004/accumulo[0m[27m[24m[Jmderfan@Mds-MBP-2 accumulo % [K[?2004hmvn clean install -DskipTests -Drat.skip=true [46Dexit                                         [41Dmvn clean install -DskipTests -Drat.skip=true [46Dexit                                         [41Dmvn test -Dtest=org.apache.camel.component.azure.servicebus.integration.operations.ServiceBusSenderOperationsTest -pl components/camel-azure/camel-azure-servicebus[163Dexit                                                                                                                                                               [159Dmvn clean install -DskipTests -Drat.skip=true [46Dexit                                         [41Dmvn clean install -DskipTests -Drat.skip=true [46Dexit                                         [41Dmvn clean install -DskipTests -Drat.skip=true [46Dexit                                         [41D  e  ffind . -name "[7mSplitRecoveryTest[27m[17D[27mS[27mp[27ml[27mi[27mt[27mR[27me[27mc[27mo[27mv[27me[27mr[27my[27mT[27me[27ms[27mt.java"[?2004l
+./test/src/main/java/org/apache/accumulo/test/functional/SplitRecoveryTest.java
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://Mds-MBP-2.netis.cc/Users/mderfan/Desktop/Meeting%2003/ACCUMULO-1004/accumulo[0m[27m[24m[Jmderfan@Mds-MBP-2 accumulo % [K[?2004hmmvn test -Dtest=[7morg/apache/accumulo/test/functional/SplitRecoveryTest[27m[53D[27mo[27mr[27mg[27m/[27ma[27mp[27ma[27mc[27mh[27me[27m/[27ma[27mc[27mc[27mu[27mm[27mu[27ml[27mo[27m/[27mt[27me[27ms[27mt[27m/[27mf[27mu[27mn[27mc[27mt[27mi[27mo[27mn[27ma[27ml[27m/[27mS[27mp[27ml[27mi[27mt[27mR[27me[27mc[27mo[27mv[27me[27mr[27my[27mT[27me[27ms[27mt[P[17C [18D.SplitRecoveryTest[17D[P[28C [29D.functional.SplitRecoveryTest[28D[P[33C [34D.test.functional.SplitRecoveryTest[33D[P[42C [43D.accumulo.test.functional.SplitRecoveryTest[42D[P[49C [50D.apache.accumulo.test.functional.SplitRecoveryTest[49D[?2004l
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] The project org.apache.accumulo:accumulo:pom:1.5.0-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Apache Accumulo                                                    [pom]
+[[1;34mINFO[m] Trace                                                              [jar]
+[[1;34mINFO[m] Start                                                              [jar]
+[[1;34mINFO[m] Fate                                                               [jar]
+[[1;34mINFO[m] Core                                                               [jar]
+[[1;34mINFO[m] Server                                                             [jar]
+[[1;34mINFO[m] Examples                                                           [pom]
+[[1;34mINFO[m] Simple Examples                                                    [jar]
+[[1;34mINFO[m] Testing                                                            [jar]
+[[1;34mINFO[m] Instamo Example                                                    [jar]
+[[1;34mINFO[m] Assemble                                                           [pom]
+[[1;34mINFO[m] Proxy                                                              [jar]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.apache.accumulo:accumulo[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Apache Accumulo 1.5.0-SNAPSHOT                           [1/12][m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber:1.1:create[m [1m(default)[m @ [36maccumulo[0;1m ---[m
+[[1;34mINFO[m] Checking for local modifications: skipped.
+[[1;34mINFO[m] Updating project files from SCM: skipped.
+[[1;34mINFO[m] Executing: /bin/sh -c cd "/Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo" && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo
+[[1;34mINFO[m] Storing buildNumber: null at timestamp: 1720612118701
+[[1;34mINFO[m] Executing: /bin/sh -c cd "/Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo" && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN_BRANCH
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.0.1:enforce[m [1m(enforce-mvn)[m @ [36maccumulo[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.3:process[m [1m(default)[m @ [36maccumulo[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mdependency:2.3:copy-dependencies[m [1m(copy-dependencies)[m @ [36maccumulo[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36morg.apache.accumulo:accumulo-trace[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding Trace 1.5.0-SNAPSHOT                                     [2/12][m
+[[1;34mINFO[m]   from trace/pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber:1.1:create[m [1m(default)[m @ [36maccumulo-trace[0;1m ---[m
+[[1;34mINFO[m] Checking for local modifications: skipped.
+[[1;34mINFO[m] Updating project files from SCM: skipped.
+[[1;34mINFO[m] Executing: /bin/sh -c cd "/Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/trace" && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/trace
+[[1;34mINFO[m] Storing buildNumber: null at timestamp: 1720612120477
+[[1;34mINFO[m] Executing: /bin/sh -c cd "/Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/trace" && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/trace
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN_BRANCH
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32menforcer:1.0.1:enforce[m [1m(enforce-mvn)[m @ [36maccumulo-trace[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec:1.2.1:exec[m [1m(generate-thrift)[m @ [36maccumulo-trace[0;1m ---[m
+****************************************************
+*** thrift is not available
+***   expecting 'thrift -version' to return 0.9
+*** generated code will not be updated
+****************************************************
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.3:process[m [1m(default)[m @ [36maccumulo-trace[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.5:resources[m [1m(default-resources)[m @ [36maccumulo-trace[0;1m ---[m
+[debug] execute contextualize
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/trace/src/main/resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mdependency:2.3:copy-dependencies[m [1m(copy-dependencies)[m @ [36maccumulo-trace[0;1m ---[m
+[[1;34mINFO[m] log4j-1.2.16.jar already exists in destination.
+[[1;34mINFO[m] libthrift-0.9.0.jar already exists in destination.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.3.2:compile[m [1m(default-compile)[m @ [36maccumulo-trace[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.5:testResources[m [1m(default-testResources)[m @ [36maccumulo-trace[0;1m ---[m
+[debug] execute contextualize
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/trace/src/test/resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.3.2:testCompile[m [1m(default-testCompile)[m @ [36maccumulo-trace[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msurefire:2.12:test[m [1m(default-test)[m @ [36maccumulo-trace[0;1m ---[m
+[[1;34mINFO[m] Surefire report directory: /Users/mderfan/Desktop/Meeting 03/ACCUMULO-1004/accumulo/trace/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for Apache Accumulo 1.5.0-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Apache Accumulo .................................... [1;32mSUCCESS[m [  2.421 s]
+[[1;34mINFO[m] Trace .............................................. [1;31mFAILURE[m [  1.468 s]
+[[1;34mINFO[m] Start .............................................. [1;33mSKIPPED[m
+[[1;34mINFO[m] Fate ............................................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Core ............................................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Server ............................................. [1;33mSKIPPED[m
+[[1;34mINFO[m] Examples ........................................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Simple Examples .................................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Testing ............................................ [1;33mSKIPPED[m
+[[1;34mINFO[m] Instamo Example .................................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Assemble ........................................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Proxy .............................................. [1;33mSKIPPED[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  4.593 s
+[[1;34mINFO[m] Finished at: 2024-07-10T17:48:41+06:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-surefire-plugin:2.12:test[m [1m(default-test)[m on project [36maccumulo-trace[m: [1;31mNo tests were executed!  (Set -DfailIfNoTests=false to ignore this error.)[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[[1;31mERROR[m] 
+[[1;31mERROR[m] After correcting the problems, you can resume the build with the command
+[[1;31mERROR[m]   [1mmvn <args> -rf :accumulo-trace[m
+[0m[0m[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://Mds-MBP-2.netis.cc/Users/mderfan/Desktop/Meeting%2003/ACCUMULO-1004/accumulo[0m[27m[24m[Jmderfan@Mds-MBP-2 accumulo % [K[?2004heexit[?2004l
+
+Saving session...
+...saving history...truncating history files...
+...completed.
+
+Script done on Wed Jul 10 17:48:45 2024
