@@ -1,0 +1,528 @@
+Script started on Wed Jul 10 16:45:08 2024
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://Mds-MBP-2.netis.cc/Users/mderfan/Desktop/Meeting%2003/CAMEL-6463/camel[0m[27m[24m[Jmderfan@Mds-MBP-2 camel % [K[?2004hexitmvn clean install -DskipTests -Drat.skip=true [46Dexit                                         [41Dmvn clean install -DskipTests -Drat.skip=true [7mmvn clean install -DskipTests -pl components/camel-spring -am[27m[61D[27mm[27mv[27mn[27m [27mc[27ml[27me[27ma[27mn[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27m-[27mD[27ms[27mk[27mi[27mp[27mT[27me[27ms[27mt[27ms[27m [27m-[27mp[27ml[27m [27mc[27mo[27mm[27mp[27mo[27mn[27me[27mn[27mt[27ms[27m/[27mc[27ma[27mm[27me[27ml[27m-[27ms[27mp[27mr[27mi[27mn[27mg[27m [27m-[27ma[27mm[87Dexit                                                                                                       [103D  e  [7mmvn clean install -DskipTests -pl components/camel-spring -am[27m[61D[27mm[27mv[27mn[27m [27mc[27ml[27me[27ma[27mn[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27m-[27mD[27ms[27mk[27mi[27mp[27mT[27me[27ms[27mt[27ms[27m [27m-[27mp[27ml[27m [27mc[27mo[27mm[27mp[27mo[27mn[27me[27mn[27mt[27ms[27m/[27mc[27ma[27mm[27me[27ml[27m-[27ms[27mp[27mr[27mi[27mn[27mg[27m [27m-[27ma[27mm[?2004l
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] The project org.apache.camel:camel:pom:2.12-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Camel                                                              [pom]
+[[1;34mINFO[m] Camel :: Parent                                                    [pom]
+[[1;34mINFO[m] Camel :: Tooling                                                   [pom]
+[[1;34mINFO[m] Camel :: SPI Annotations                                           [jar]
+[[1;34mINFO[m] Camel :: Annotation Processor                                      [jar]
+[[1;34mINFO[m] Camel :: Maven Plugins                                             [pom]
+[[1;34mINFO[m] Camel :: Maven Plugins :: Camel Package                   [maven-plugin]
+[[1;34mINFO[m] Camel :: Core                                                   [bundle]
+[[1;34mINFO[m] Camel :: Components                                                [pom]
+[[1;34mINFO[m] Camel :: Core XML                                                  [jar]
+[[1;34mINFO[m] Camel :: Core OSGi                                              [bundle]
+[[1;34mINFO[m] Camel :: Spring                                                 [bundle]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36morg.apache.camel:camel[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding Camel 2.12-SNAPSHOT                                      [1/12][m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mclean:2.5:clean[m [1m(default-clean)[m @ [36mcamel[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.4:process[m [1m(default)[m @ [36mcamel[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msite:3.2:attach-descriptor[m [1m(attach-descriptor)[m @ [36mcamel[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32minstall:2.3.1:install[m [1m(default-install)[m @ [36mcamel[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/pom.xml to /Users/mderfan/.m2/repository/org/apache/camel/camel/2.12-SNAPSHOT/camel-2.12-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36morg.apache.camel:camel-parent[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Camel :: Parent 2.12-SNAPSHOT                            [2/12][m
+[[1;34mINFO[m]   from parent/pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mclean:2.5:clean[m [1m(default-clean)[m @ [36mcamel-parent[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/parent/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbundle:2.3.7:cleanVersions[m [1m(versions)[m @ [36mcamel-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.4:process[m [1m(default)[m @ [36mcamel-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msite:3.2:attach-descriptor[m [1m(attach-descriptor)[m @ [36mcamel-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mianal:1.0-alpha-1:verify-legal-files[m [1m(default)[m @ [36mcamel-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32minstall:2.4:install[m [1m(default-install)[m @ [36mcamel-parent[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/parent/pom.xml to /Users/mderfan/.m2/repository/org/apache/camel/camel-parent/2.12-SNAPSHOT/camel-parent-2.12-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36morg.apache.camel:tooling[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding Camel :: Tooling 2.12-SNAPSHOT                           [3/12][m
+[[1;34mINFO[m]   from tooling/pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mclean:2.5:clean[m [1m(default-clean)[m @ [36mtooling[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/tooling/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbundle:2.3.7:cleanVersions[m [1m(versions)[m @ [36mtooling[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.4:process[m [1m(default)[m @ [36mtooling[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msite:3.2:attach-descriptor[m [1m(attach-descriptor)[m @ [36mtooling[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mianal:1.0-alpha-1:verify-legal-files[m [1m(default)[m @ [36mtooling[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32minstall:2.4:install[m [1m(default-install)[m @ [36mtooling[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/tooling/pom.xml to /Users/mderfan/.m2/repository/org/apache/camel/tooling/2.12-SNAPSHOT/tooling-2.12-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36morg.apache.camel:spi-annotations[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Camel :: SPI Annotations 2.12-SNAPSHOT                   [4/12][m
+[[1;34mINFO[m]   from tooling/spi-annotations/pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mclean:2.5:clean[m [1m(default-clean)[m @ [36mspi-annotations[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/tooling/spi-annotations/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbundle:2.3.7:cleanVersions[m [1m(versions)[m @ [36mspi-annotations[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.4:process[m [1m(default)[m @ [36mspi-annotations[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.6:resources[m [1m(default-resources)[m @ [36mspi-annotations[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/tooling/spi-annotations/src/main/resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.5.1:compile[m [1m(default-compile)[m @ [36mspi-annotations[0;1m ---[m
+[[1;34mINFO[m] Compiling 4 source files to /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/tooling/spi-annotations/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.6:testResources[m [1m(default-testResources)[m @ [36mspi-annotations[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/tooling/spi-annotations/src/test/resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.5.1:testCompile[m [1m(default-testCompile)[m @ [36mspi-annotations[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msurefire:2.13:test[m [1m(default-test)[m @ [36mspi-annotations[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjar:2.4:jar[m [1m(default-jar)[m @ [36mspi-annotations[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/tooling/spi-annotations/target/spi-annotations-2.12-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msite:3.2:attach-descriptor[m [1m(attach-descriptor)[m @ [36mspi-annotations[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mianal:1.0-alpha-1:verify-legal-files[m [1m(default)[m @ [36mspi-annotations[0;1m ---[m
+[[1;34mINFO[m] Checking legal files in: spi-annotations-2.12-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32minstall:2.4:install[m [1m(default-install)[m @ [36mspi-annotations[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/tooling/spi-annotations/target/spi-annotations-2.12-SNAPSHOT.jar to /Users/mderfan/.m2/repository/org/apache/camel/spi-annotations/2.12-SNAPSHOT/spi-annotations-2.12-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/tooling/spi-annotations/pom.xml to /Users/mderfan/.m2/repository/org/apache/camel/spi-annotations/2.12-SNAPSHOT/spi-annotations-2.12-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------< [0;36morg.apache.camel:apt[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding Camel :: Annotation Processor 2.12-SNAPSHOT              [5/12][m
+[[1;34mINFO[m]   from tooling/apt/pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mclean:2.5:clean[m [1m(default-clean)[m @ [36mapt[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/tooling/apt/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbundle:2.3.7:cleanVersions[m [1m(versions)[m @ [36mapt[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.4:process[m [1m(default)[m @ [36mapt[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.6:resources[m [1m(default-resources)[m @ [36mapt[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.5.1:compile[m [1m(default-compile)[m @ [36mapt[0;1m ---[m
+[[1;34mINFO[m] Compiling 3 source files to /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/tooling/apt/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.6:testResources[m [1m(default-testResources)[m @ [36mapt[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/tooling/apt/src/test/resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.5.1:testCompile[m [1m(default-testCompile)[m @ [36mapt[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msurefire:2.13:test[m [1m(default-test)[m @ [36mapt[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjar:2.4:jar[m [1m(default-jar)[m @ [36mapt[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/tooling/apt/target/apt-2.12-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msite:3.2:attach-descriptor[m [1m(attach-descriptor)[m @ [36mapt[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mianal:1.0-alpha-1:verify-legal-files[m [1m(default)[m @ [36mapt[0;1m ---[m
+[[1;34mINFO[m] Checking legal files in: apt-2.12-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32minstall:2.4:install[m [1m(default-install)[m @ [36mapt[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/tooling/apt/target/apt-2.12-SNAPSHOT.jar to /Users/mderfan/.m2/repository/org/apache/camel/apt/2.12-SNAPSHOT/apt-2.12-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/tooling/apt/pom.xml to /Users/mderfan/.m2/repository/org/apache/camel/apt/2.12-SNAPSHOT/apt-2.12-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36morg.apache.camel:maven-plugins[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding Camel :: Maven Plugins 2.12-SNAPSHOT                     [6/12][m
+[[1;34mINFO[m]   from tooling/maven/pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mclean:2.5:clean[m [1m(default-clean)[m @ [36mmaven-plugins[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/tooling/maven/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbundle:2.3.7:cleanVersions[m [1m(versions)[m @ [36mmaven-plugins[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.4:process[m [1m(default)[m @ [36mmaven-plugins[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msite:3.2:attach-descriptor[m [1m(attach-descriptor)[m @ [36mmaven-plugins[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mianal:1.0-alpha-1:verify-legal-files[m [1m(default)[m @ [36mmaven-plugins[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32minstall:2.4:install[m [1m(default-install)[m @ [36mmaven-plugins[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/tooling/maven/pom.xml to /Users/mderfan/.m2/repository/org/apache/camel/maven-plugins/2.12-SNAPSHOT/maven-plugins-2.12-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------< [0;36morg.apache.camel:camel-package-maven-plugin[0;1m >-------------[m
+[[1;34mINFO[m] [1mBuilding Camel :: Maven Plugins :: Camel Package 2.12-SNAPSHOT    [7/12][m
+[[1;34mINFO[m]   from tooling/maven/camel-package-maven-plugin/pom.xml
+[[1;34mINFO[m] [1m----------------------------[ maven-plugin ]----------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mclean:2.5:clean[m [1m(default-clean)[m @ [36mcamel-package-maven-plugin[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/tooling/maven/camel-package-maven-plugin/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbundle:2.3.7:cleanVersions[m [1m(versions)[m @ [36mcamel-package-maven-plugin[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.4:process[m [1m(default)[m @ [36mcamel-package-maven-plugin[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.6:resources[m [1m(default-resources)[m @ [36mcamel-package-maven-plugin[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.5.1:compile[m [1m(default-compile)[m @ [36mcamel-package-maven-plugin[0;1m ---[m
+[[1;34mINFO[m] Compiling 2 source files to /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/tooling/maven/camel-package-maven-plugin/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mplugin:3.2:descriptor[m [1m(default-descriptor)[m @ [36mcamel-package-maven-plugin[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to read mojo metadata.
+[[1;34mINFO[m] Applying mojo extractor for language: java
+[[1;34mINFO[m] Mojo extractor for language: java found 2 mojo descriptors.
+[[1;34mINFO[m] Applying mojo extractor for language: bsh
+[[1;34mINFO[m] Mojo extractor for language: bsh found 0 mojo descriptors.
+[[1;34mINFO[m] Applying mojo extractor for language: java-annotations
+[[1;34mINFO[m] Mojo extractor for language: java-annotations found 0 mojo descriptors.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.6:testResources[m [1m(default-testResources)[m @ [36mcamel-package-maven-plugin[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/tooling/maven/camel-package-maven-plugin/src/test/resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.5.1:testCompile[m [1m(default-testCompile)[m @ [36mcamel-package-maven-plugin[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msurefire:2.13:test[m [1m(default-test)[m @ [36mcamel-package-maven-plugin[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjar:2.4:jar[m [1m(default-jar)[m @ [36mcamel-package-maven-plugin[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/tooling/maven/camel-package-maven-plugin/target/camel-package-maven-plugin-2.12-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mplugin:3.2:addPluginArtifactMetadata[m [1m(default-addPluginArtifactMetadata)[m @ [36mcamel-package-maven-plugin[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msite:3.2:attach-descriptor[m [1m(attach-descriptor)[m @ [36mcamel-package-maven-plugin[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mianal:1.0-alpha-1:verify-legal-files[m [1m(default)[m @ [36mcamel-package-maven-plugin[0;1m ---[m
+[[1;34mINFO[m] Checking legal files in: camel-package-maven-plugin-2.12-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32minstall:2.4:install[m [1m(default-install)[m @ [36mcamel-package-maven-plugin[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/tooling/maven/camel-package-maven-plugin/target/camel-package-maven-plugin-2.12-SNAPSHOT.jar to /Users/mderfan/.m2/repository/org/apache/camel/camel-package-maven-plugin/2.12-SNAPSHOT/camel-package-maven-plugin-2.12-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/tooling/maven/camel-package-maven-plugin/pom.xml to /Users/mderfan/.m2/repository/org/apache/camel/camel-package-maven-plugin/2.12-SNAPSHOT/camel-package-maven-plugin-2.12-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.apache.camel:camel-core[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding Camel :: Core 2.12-SNAPSHOT                              [8/12][m
+[[1;34mINFO[m]   from camel-core/pom.xml
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mclean:2.5:clean[m [1m(default-clean)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/camel-core/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbundle:2.3.7:cleanVersions[m [1m(versions)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.4:process[m [1m(default)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mcamel-package:2.12-SNAPSHOT:generate-components-list[m [1m(default)[0;1m > [0;1mgenerate-resources[m @ [36mcamel-core[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbundle:2.3.7:cleanVersions[m [1m(versions)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mremote-resources:1.4:process[m [1m(default)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mcamel-package:2.12-SNAPSHOT:generate-components-list[m [1m(default)[0;1m < [0;1mgenerate-resources[m @ [36mcamel-core[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcamel-package:2.12-SNAPSHOT:generate-components-list[m [1m(default)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Generated /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/camel-core/target/generated/camel/components/META-INF/services/org/apache/camel/component.properties containing the Camel components direct-vm ref validator direct test file dataset bean mock controlbus timer language seda binding vm properties stub class log browse xslt
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.6:resources[m [1m(default-resources)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 40 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.5.1:compile[m [1m(default-compile)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Compiling 1101 source files to /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/camel-core/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:2.6:testResources[m [1m(default-testResources)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 107 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:2.5.1:testCompile[m [1m(default-testCompile)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Compiling 1995 source files to /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/camel-core/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msurefire:2.13:test[m [1m(default-test)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbundle:2.3.7:bundle[m [1m(default-bundle)[m @ [36mcamel-core[0;1m ---[m
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.12-SNAPSHOT : Split package org/apache/camel/spi
+Use directive -split-package:=(merge-first|merge-last|error|first) on Export/Private Package instruction to get rid of this warning
+Package found in   [Jar:., Jar:spi-annotations]
+Reference from     /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/tooling/spi-annotations/target/spi-annotations-2.12-SNAPSHOT.jar
+Classpath          [Jar:., Jar:spi-annotations, Jar:concurrentlinkedhashmap-lru, Jar:slf4j-api, Jar:org.osgi.core, Jar:jackson-databind, Jar:jackson-annotations, Jar:jackson-core, Jar:apt]
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.12-SNAPSHOT : Did not find matching referal for !org.apache.camel.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.12-SNAPSHOT : Did not find matching referal for com.thoughtworks.xstream.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.12-SNAPSHOT : Did not find matching referal for freemarker.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.12-SNAPSHOT : Did not find matching referal for javax.persistence.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.12-SNAPSHOT : Did not find matching referal for net.sf.flatpack.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.12-SNAPSHOT : Did not find matching referal for net.sf.saxon.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.12-SNAPSHOT : Did not find matching referal for org.antlr.stringtemplate.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.12-SNAPSHOT : Did not find matching referal for org.apache.abdera.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.12-SNAPSHOT : Did not find matching referal for org.apache.camel.tools.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.12-SNAPSHOT : Did not find matching referal for org.apache.commons.httpclient.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.12-SNAPSHOT : Did not find matching referal for org.apache.commons.logging.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.12-SNAPSHOT : Did not find matching referal for org.apache.cxf.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.12-SNAPSHOT : Did not find matching referal for org.apache.qpid.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.12-SNAPSHOT : Did not find matching referal for org.apache.velocity.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.12-SNAPSHOT : Did not find matching referal for org.apache.xmlbeans.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.12-SNAPSHOT : Did not find matching referal for org.ccil.cowan.tagsoup.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.12-SNAPSHOT : Did not find matching referal for org.eclipse.jetty.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.12-SNAPSHOT : Did not find matching referal for org.jivesoftware.smack.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.12-SNAPSHOT : Did not find matching referal for org.mortbay.cometd.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.12-SNAPSHOT : Did not find matching referal for org.springframework.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.12-SNAPSHOT : Did not find matching referal for org.springframework.ws.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.12-SNAPSHOT : Did not find matching referal for org.springframework.xml.*
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msite:3.2:attach-descriptor[m [1m(attach-descriptor)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mshade:2.0:shade[m [1m(default)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Excluding org.apache.camel:spi-annotations:jar:2.12-SNAPSHOT from the shaded jar.
+[[1;34mINFO[m] Including com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:jar:1.3.2 in the shaded jar.
+[[1;34mINFO[m] Excluding org.slf4j:slf4j-api:jar:1.6.6 from the shaded jar.
+[[1;34mINFO[m] Excluding com.fasterxml.jackson.core:jackson-databind:jar:2.2.2 from the shaded jar.
+[[1;34mINFO[m] Excluding com.fasterxml.jackson.core:jackson-annotations:jar:2.2.2 from the shaded jar.
+[[1;34mINFO[m] Excluding com.fasterxml.jackson.core:jackson-core:jar:2.2.2 from the shaded jar.
+[[1;34mINFO[m] Replacing original artifact with shaded artifact.
+[[1;34mINFO[m] Replacing /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/camel-core/target/camel-core-2.12-SNAPSHOT.jar with /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/camel-core/target/camel-core-2.12-SNAPSHOT-shaded.jar
+[[1;34mINFO[m] Dependency-reduced POM written at: /Users/mderfan/Desktop/Meeting 03/CAMEL-6463/camel/camel-core/dependency-reduced-pom.xml
+[[1;33mWARNING[m] Error injecting: org.apache.maven.shared.dependency.graph.internal.Maven3DependencyGraphBuilder
+[1;31mjava.lang.NoClassDefFoundError[m: [1;31morg/sonatype/aether/graph/DependencyNode[m
+    [1mat[m java.lang.Class.getDeclaredMethods0 ([1mNative Method[m)
+    [1mat[m java.lang.Class.privateGetDeclaredMethods ([1mClass.java:2701[m)
+    [1mat[m java.lang.Class.getDeclaredMethods ([1mClass.java:1975[m)
+    [1mat[m com.google.inject.internal.DeclaredMembers.getDeclaredMethods ([1mDeclaredMembers.java:48[m)
+    [1mat[m com.google.inject.spi.InjectionPoint.getDeclaredMethods ([1mInjectionPoint.java:811[m)
+    [1mat[m com.google.inject.spi.InjectionPoint.getInjectionPoints ([1mInjectionPoint.java:730[m)
+    [1mat[m com.google.inject.spi.InjectionPoint.forInstanceMethodsAndFields ([1mInjectionPoint.java:430[m)
+    [1mat[m com.google.inject.internal.ConstructorBindingImpl.getInternalDependencies ([1mConstructorBindingImpl.java:177[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.getInternalDependencies ([1mInjectorImpl.java:670[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.cleanup ([1mInjectorImpl.java:627[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.initializeJitBinding ([1mInjectorImpl.java:613[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.createJustInTimeBinding ([1mInjectorImpl.java:943[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.createJustInTimeBindingRecursive ([1mInjectorImpl.java:863[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.getJustInTimeBinding ([1mInjectorImpl.java:300[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.getBindingOrThrow ([1mInjectorImpl.java:223[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.getProviderOrThrow ([1mInjectorImpl.java:1093[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.getProvider ([1mInjectorImpl.java:1122[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.getProvider ([1mInjectorImpl.java:1087[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.getInstance ([1mInjectorImpl.java:1139[m)
+    [1mat[m org.eclipse.sisu.space.AbstractDeferredClass.get ([1mAbstractDeferredClass.java:50[m)
+    [1mat[m com.google.inject.internal.ProviderInternalFactory.provision ([1mProviderInternalFactory.java:86[m)
+    [1mat[m com.google.inject.internal.InternalFactoryToInitializableAdapter.provision ([1mInternalFactoryToInitializableAdapter.java:57[m)
+    [1mat[m com.google.inject.internal.ProviderInternalFactory$1.call ([1mProviderInternalFactory.java:67[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision ([1mProvisionListenerStackCallback.java:109[m)
+    [1mat[m org.eclipse.sisu.bean.BeanScheduler$CycleActivator.onProvision ([1mBeanScheduler.java:232[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision ([1mProvisionListenerStackCallback.java:117[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback.provision ([1mProvisionListenerStackCallback.java:66[m)
+    [1mat[m com.google.inject.internal.ProviderInternalFactory.circularGet ([1mProviderInternalFactory.java:62[m)
+    [1mat[m com.google.inject.internal.InternalFactoryToInitializableAdapter.get ([1mInternalFactoryToInitializableAdapter.java:47[m)
+    [1mat[m com.google.inject.internal.ProviderToInternalFactoryAdapter.get ([1mProviderToInternalFactoryAdapter.java:40[m)
+    [1mat[m com.google.inject.internal.SingletonScope$1.get ([1mSingletonScope.java:169[m)
+    [1mat[m com.google.inject.internal.InternalFactoryToProviderAdapter.get ([1mInternalFactoryToProviderAdapter.java:45[m)
+    [1mat[m com.google.inject.internal.InjectorImpl$1.get ([1mInjectorImpl.java:1101[m)
+    [1mat[m org.eclipse.sisu.inject.LazyBeanEntry.getValue ([1mLazyBeanEntry.java:83[m)
+    [1mat[m org.eclipse.sisu.plexus.LazyPlexusBean.getValue ([1mLazyPlexusBean.java:53[m)
+    [1mat[m org.codehaus.plexus.DefaultPlexusContainer.lookup ([1mDefaultPlexusContainer.java:265[m)
+    [1mat[m org.codehaus.plexus.DefaultPlexusContainer.lookup ([1mDefaultPlexusContainer.java:245[m)
+    [1mat[m org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder.buildDependencyGraph ([1mDefaultDependencyGraphBuilder.java:60[m)
+    [1mat[m org.apache.maven.plugins.shade.mojo.ShadeMojo.updateExcludesInDeps ([1mShadeMojo.java:965[m)
+    [1mat[m org.apache.maven.plugins.shade.mojo.ShadeMojo.createDependencyReducedPom ([1mShadeMojo.java:938[m)
+    [1mat[m org.apache.maven.plugins.shade.mojo.ShadeMojo.execute ([1mShadeMojo.java:544[m)
+    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:126[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 ([1mMojoExecutor.java:328[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.doExecute ([1mMojoExecutor.java:316[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:212[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:174[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.access$000 ([1mMojoExecutor.java:75[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor$1.run ([1mMojoExecutor.java:162[m)
+    [1mat[m org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute ([1mDefaultMojosExecutionStrategy.java:39[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:159[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:105[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:73[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:53[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:118[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:261[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:173[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:101[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:903[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:280[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:203[m)
+    [1mat[m sun.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m sun.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:62[m)
+    [1mat[m sun.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:498[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:255[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:201[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:361[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:314[m)
+[1mCaused by[m: java.lang.ClassNotFoundException: [1;31morg.sonatype.aether.graph.DependencyNode[m
+    [1mat[m org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass ([1mSelfFirstStrategy.java:42[m)
+    [1mat[m org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass ([1mClassRealm.java:225[m)
+    [1mat[m org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass ([1mClassRealm.java:210[m)
+    [1mat[m org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass ([1mClassRealm.java:205[m)
+    [1mat[m java.lang.Class.getDeclaredMethods0 ([1mNative Method[m)
+    [1mat[m java.lang.Class.privateGetDeclaredMethods ([1mClass.java:2701[m)
+    [1mat[m java.lang.Class.getDeclaredMethods ([1mClass.java:1975[m)
+    [1mat[m com.google.inject.internal.DeclaredMembers.getDeclaredMethods ([1mDeclaredMembers.java:48[m)
+    [1mat[m com.google.inject.spi.InjectionPoint.getDeclaredMethods ([1mInjectionPoint.java:811[m)
+    [1mat[m com.google.inject.spi.InjectionPoint.getInjectionPoints ([1mInjectionPoint.java:730[m)
+    [1mat[m com.google.inject.spi.InjectionPoint.forInstanceMethodsAndFields ([1mInjectionPoint.java:430[m)
+    [1mat[m com.google.inject.internal.ConstructorBindingImpl.getInternalDependencies ([1mConstructorBindingImpl.java:177[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.getInternalDependencies ([1mInjectorImpl.java:670[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.cleanup ([1mInjectorImpl.java:627[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.initializeJitBinding ([1mInjectorImpl.java:613[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.createJustInTimeBinding ([1mInjectorImpl.java:943[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.createJustInTimeBindingRecursive ([1mInjectorImpl.java:863[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.getJustInTimeBinding ([1mInjectorImpl.java:300[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.getBindingOrThrow ([1mInjectorImpl.java:223[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.getProviderOrThrow ([1mInjectorImpl.java:1093[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.getProvider ([1mInjectorImpl.java:1122[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.getProvider ([1mInjectorImpl.java:1087[m)
+    [1mat[m com.google.inject.internal.InjectorImpl.getInstance ([1mInjectorImpl.java:1139[m)
+    [1mat[m org.eclipse.sisu.space.AbstractDeferredClass.get ([1mAbstractDeferredClass.java:50[m)
+    [1mat[m com.google.inject.internal.ProviderInternalFactory.provision ([1mProviderInternalFactory.java:86[m)
+    [1mat[m com.google.inject.internal.InternalFactoryToInitializableAdapter.provision ([1mInternalFactoryToInitializableAdapter.java:57[m)
+    [1mat[m com.google.inject.internal.ProviderInternalFactory$1.call ([1mProviderInternalFactory.java:67[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision ([1mProvisionListenerStackCallback.java:109[m)
+    [1mat[m org.eclipse.sisu.bean.BeanScheduler$CycleActivator.onProvision ([1mBeanScheduler.java:232[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision ([1mProvisionListenerStackCallback.java:117[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback.provision ([1mProvisionListenerStackCallback.java:66[m)
+    [1mat[m com.google.inject.internal.ProviderInternalFactory.circularGet ([1mProviderInternalFactory.java:62[m)
+    [1mat[m com.google.inject.internal.InternalFactoryToInitializableAdapter.get ([1mInternalFactoryToInitializableAdapter.java:47[m)
+    [1mat[m com.google.inject.internal.ProviderToInternalFactoryAdapter.get ([1mProviderToInternalFactoryAdapter.java:40[m)
+    [1mat[m com.google.inject.internal.SingletonScope$1.get ([1mSingletonScope.java:169[m)
+    [1mat[m com.google.inject.internal.InternalFactoryToProviderAdapter.get ([1mInternalFactoryToProviderAdapter.java:45[m)
+    [1mat[m com.google.inject.internal.InjectorImpl$1.get ([1mInjectorImpl.java:1101[m)
+    [1mat[m org.eclipse.sisu.inject.LazyBeanEntry.getValue ([1mLazyBeanEntry.java:83[m)
+    [1mat[m org.eclipse.sisu.plexus.LazyPlexusBean.getValue ([1mLazyPlexusBean.java:53[m)
+    [1mat[m org.codehaus.plexus.DefaultPlexusContainer.lookup ([1mDefaultPlexusContainer.java:265[m)
+    [1mat[m org.codehaus.plexus.DefaultPlexusContainer.lookup ([1mDefaultPlexusContainer.java:245[m)
+    [1mat[m org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder.buildDependencyGraph ([1mDefaultDependencyGraphBuilder.java:60[m)
+    [1mat[m org.apache.maven.plugins.shade.mojo.ShadeMojo.updateExcludesInDeps ([1mShadeMojo.java:965[m)
+    [1mat[m org.apache.maven.plugins.shade.mojo.ShadeMojo.createDependencyReducedPom ([1mShadeMojo.java:938[m)
+    [1mat[m org.apache.maven.plugins.shade.mojo.ShadeMojo.execute ([1mShadeMojo.java:544[m)
+    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:126[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 ([1mMojoExecutor.java:328[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.doExecute ([1mMojoExecutor.java:316[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:212[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:174[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.access$000 ([1mMojoExecutor.java:75[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor$1.run ([1mMojoExecutor.java:162[m)
+    [1mat[m org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute ([1mDefaultMojosExecutionStrategy.java:39[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:159[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:105[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:73[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:53[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:118[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:261[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:173[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:101[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:903[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:280[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:203[m)
+    [1mat[m sun.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m sun.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:62[m)
+    [1mat[m sun.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:498[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:255[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:201[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:361[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:314[m)
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for Camel 2.12-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Camel .............................................. [1;32mSUCCESS[m [  2.098 s]
+[[1;34mINFO[m] Camel :: Parent .................................... [1;32mSUCCESS[m [  1.211 s]
+[[1;34mINFO[m] Camel :: Tooling ................................... [1;32mSUCCESS[m [  0.051 s]
+[[1;34mINFO[m] Camel :: SPI Annotations ........................... [1;32mSUCCESS[m [  1.973 s]
+[[1;34mINFO[m] Camel :: Annotation Processor ...................... [1;32mSUCCESS[m [  1.290 s]
+[[1;34mINFO[m] Camel :: Maven Plugins ............................. [1;32mSUCCESS[m [  0.268 s]
+[[1;34mINFO[m] Camel :: Maven Plugins :: Camel Package ............ [1;32mSUCCESS[m [  3.639 s]
+[[1;34mINFO[m] Camel :: Core ...................................... [1;31mFAILURE[m [ 34.812 s]
+[[1;34mINFO[m] Camel :: Components ................................ [1;33mSKIPPED[m
+[[1;34mINFO[m] Camel :: Core XML .................................. [1;33mSKIPPED[m
+[[1;34mINFO[m] Camel :: Core OSGi ................................. [1;33mSKIPPED[m
+[[1;34mINFO[m] Camel :: Spring .................................... [1;33mSKIPPED[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  49.063 s
+[[1;34mINFO[m] Finished at: 2024-07-10T16:46:29+06:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-shade-plugin:2.0:shade[m [1m(default)[m on project [36mcamel-core[m: [1;31mExecution default of goal org.apache.maven.plugins:maven-shade-plugin:2.0:shade failed: A required class was missing while executing org.apache.maven.plugins:maven-shade-plugin:2.0:shade: org/sonatype/aether/graph/DependencyNode[m
+[[1;31mERROR[m] [1;31m-----------------------------------------------------[m
+[[1;31mERROR[m] [1;31mrealm =    plugin>org.apache.maven.plugins:maven-shade-plugin:2.0[m
+[[1;31mERROR[m] [1;31mstrategy = org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy[m
+[[1;31mERROR[m] [1;31murls[0] = file:/Users/mderfan/.m2/repository/org/apache/maven/plugins/maven-shade-plugin/2.0/maven-shade-plugin-2.0.jar[m
+[[1;31mERROR[m] [1;31murls[1] = file:/Users/mderfan/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar[m
+[[1;31mERROR[m] [1;31murls[2] = file:/Users/mderfan/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar[m
+[[1;31mERROR[m] [1;31murls[3] = file:/Users/mderfan/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar[m
+[[1;31mERROR[m] [1;31murls[4] = file:/Users/mderfan/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar[m
+[[1;31mERROR[m] [1;31murls[5] = file:/Users/mderfan/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar[m
+[[1;31mERROR[m] [1;31murls[6] = file:/Users/mderfan/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar[m
+[[1;31mERROR[m] [1;31murls[7] = file:/Users/mderfan/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar[m
+[[1;31mERROR[m] [1;31murls[8] = file:/Users/mderfan/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar[m
+[[1;31mERROR[m] [1;31murls[9] = file:/Users/mderfan/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.1/plexus-utils-3.0.1.jar[m
+[[1;31mERROR[m] [1;31murls[10] = file:/Users/mderfan/.m2/repository/asm/asm/3.3.1/asm-3.3.1.jar[m
+[[1;31mERROR[m] [1;31murls[11] = file:/Users/mderfan/.m2/repository/asm/asm-commons/3.3.1/asm-commons-3.3.1.jar[m
+[[1;31mERROR[m] [1;31murls[12] = file:/Users/mderfan/.m2/repository/asm/asm-tree/3.3.1/asm-tree-3.3.1.jar[m
+[[1;31mERROR[m] [1;31murls[13] = file:/Users/mderfan/.m2/repository/org/jdom/jdom/1.1/jdom-1.1.jar[m
+[[1;31mERROR[m] [1;31murls[14] = file:/Users/mderfan/.m2/repository/org/apache/maven/shared/maven-dependency-tree/2.0/maven-dependency-tree-2.0.jar[m
+[[1;31mERROR[m] [1;31murls[15] = file:/Users/mderfan/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar[m
+[[1;31mERROR[m] [1;31murls[16] = file:/Users/mderfan/.m2/repository/org/vafer/jdependency/0.7/jdependency-0.7.jar[m
+[[1;31mERROR[m] [1;31murls[17] = file:/Users/mderfan/.m2/repository/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar[m
+[[1;31mERROR[m] [1;31murls[18] = file:/Users/mderfan/.m2/repository/asm/asm-analysis/3.2/asm-analysis-3.2.jar[m
+[[1;31mERROR[m] [1;31murls[19] = file:/Users/mderfan/.m2/repository/asm/asm-util/3.2/asm-util-3.2.jar[m
+[[1;31mERROR[m] [1;31mNumber of foreign imports: 1[m
+[[1;31mERROR[m] [1;31mimport: Entry[import  from realm ClassRealm[project>org.apache.camel:camel-parent:2.12-SNAPSHOT, parent: ClassRealm[maven.api, parent: null]]][m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] [1;31m-----------------------------------------------------[m
+[[1;31mERROR[m] [1;31m[m: org.sonatype.aether.graph.DependencyNode
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/AetherClassNotFound
+[[1;31mERROR[m] 
+[[1;31mERROR[m] After correcting the problems, you can resume the build with the command
+[[1;31mERROR[m]   [1mmvn <args> -rf :camel-core[m
+[0m[0m[1m[7m%[27m[1m[0m                                                                                                                                                                                                            ]7;file://Mds-MBP-2.netis.cc/Users/mderfan/Desktop/Meeting%2003/CAMEL-6463/camel[0m[27m[24m[Jmderfan@Mds-MBP-2 camel % [K[?2004heexit[?2004l
+
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+Script done on Wed Jul 10 16:47:22 2024
